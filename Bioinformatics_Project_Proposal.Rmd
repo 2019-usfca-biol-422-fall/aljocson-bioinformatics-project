@@ -1,8 +1,11 @@
 ---
-title: "Comparing the bacterial growth on mobile cell phones of regular college students versus of college students working in hospitals"
+title: Comparing the bacterial growth on mobile cell phones of regular college students
+  versus of college students working in hospitals
 author: "Angela Jocson"
 date: "8/27/2019"
-output: word_document
+output:
+  html_document:
+    df_print: paged
 csl: bioinformatics.csl
 bibliography: references.bib
 ---
@@ -22,6 +25,15 @@ Students who enter hospitals with their phones tend to sanitize before and after
 # Study Design
 I will be sampling students at the University of San Francisco who either work in a hospital setting (where they are supposed to clean off their phones) versus students who carry their phones regularly on a daily basis. I will collect phone samples from six different students who fit into one of the two categories of the students. This will leave me with three samples from those who should be sanitizing their phones before after entering a hospital and from the regular student group.
 
+### Suplies Needed for Sampling
+
+1. Gloves
+2. Sterile Swabbing kit
+3. Sterile tubes + buffer 
+
+### Sampling Plan
+
+In order to confirm the necessary cell phone sanitizing routine when working in hospitals/ medical professional settings, I will attempt to sample this group of students after they come back from working at their clinical sites. This will be at Saint Mary's Clinical site at 1:30 pm, Tuesday September 3, immediately after the students get out of lab. To avoid students cleaning their phones solely because of their knowledge of being tested, I will gain permission to swab their phones on site. After swabbing the health professionals, I also plan on swabbing the phones of students who use their phones freely around the same time to avoid bacterial differences due to people using their phones for longer further in the day. This will be on Tuesday September 3 as well but during the 2:10-4:45 pm allotted laboratory time. 
 
 # Works Cited
 
