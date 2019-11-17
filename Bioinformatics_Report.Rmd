@@ -71,7 +71,7 @@ These culture plates were then left to incubate for 37 degrees Celcius overnight
 
 The following day (September 4, 2019) I measured each culture plate [for growth of colonies and monophytes.](http://https://docs.google.com/spreadsheets/d/1GTZFUkE8nhY6hZebgxoPr_dam9kGWzlqFg1O4--MyUE/edit#gid=0). 
 
-I incubated each of the samples at 37 degrees Celsius and recounted 5 days after on September 9, 2019. For group A: 1A (1 colony, 1 morphotype), 2A (5 colonies, 4 morphotypes), and 3A (2 colonies, 2 morphotypes) all had the highest growth in their 100x dilution while group B: 1B (1 colony, 1 morphotype), 2B (21 colonies, 9 morphotypes), 3B all exhibited most growth at their 1x dilution (70 colonies, 4 morphotypes). 
+Each sample was incubated at 37 degrees Celsius and recounted 5 days after on September 9, 2019. For group A: 1A (1 colony, 1 morphotype), 2A (5 colonies, 4 morphotypes), and 3A (2 colonies, 2 morphotypes) all had the highest growth in their 100x dilution while group B: 1B (1 colony, 1 morphotype), 2B (21 colonies, 9 morphotypes), 3B all exhibited most growth at their 1x dilution (70 colonies, 4 morphotypes). 
 
 ## DNA Extraction Protocol 
 
@@ -85,7 +85,7 @@ In each 1.5 ml tube, 100 ul of Extraction Solution was added and vortexed for 60
 Once each sample was done (6 total), they were then set up for Quibit protocol. I used a Qubit Fluorometric Quantification to quantitate the amount of DNA was present in each prepped tube (ng/ul). Each cultured sample was recorded for their amount of Quibit data (1A: 5.13 ng/ul, 2A: 8.09 ng/ ul, 3A: 9.75 ng/ul, 1B: 7.08 ng/ul, 2B: 7.4 ng/ul, 3B: 10.8 ng/ul).
 
 ### Culture free DNA Extraction
-The original frozen sample that was set aside during sample collection (September 3, 2019) was then redistributed and prepped for DNA Extraction (September 11, 2019, 6 samples total)
+The original frozen sample that was set aside during sample collection (September 3, 2019) was redistributed and prepped for DNA Extraction (September 11, 2019, 6 samples total)
 
 This protocol also used the Sigma Plant RED Extract-N-AMP PCR Kit [@amplicon201316s]. 
 
@@ -102,45 +102,40 @@ On September 17, 2019, I set up a PCR protocol for the cultured samples (6 total
 
 For my master mix, each reagent followed the equation: (n+1) + 10% (+ 1 accounting for control, and 10% accounting for any mess-ups). Including my control, I had a total of 7 samples for PCR. This resulted in calculated volumes (for n = 7 samples) of 77 ul of AMP, 6.2 ul of 27 F primer, 6.2 of 1492 R primer, 7.7 ul of BSA, 49.5 ul of H2O and 1 ul of Template DNA or 1 ul of water for the control. 
 
-I added 17 ul of my master mix to each PCR tube (7 total) (although the original protocol called for 19 ul, I ended up not having enough mix.
+17 ul of my master mix was added to each PCR tube (7 total) (although the original protocol called for 19 ul, I ended up not having enough mix.
 
-The PCR Cycle started with the denaturing at a high temperature with PCR Conditioning starting from step one of 95 degrees Celsius for 5 minutes, then 94 degrees Celsius for 30 seconds, 65 degrees Celsius for 30 seconds, and finally 72 degrees Celsius for 1 minute. This went on for 10 cycles and each step going down 1 degree per cycle to ensure copies. 
+The PCR Cycle started with the denaturing at a high temperature with PCR Conditioning starting from step one of 95 degrees C for 5 minutes, then 94 degrees C for 30 seconds, 65 degrees C for 30 seconds, and finally 72 degrees C for 1 minute. This went on for 10 cycles and each step going down 1 degree per cycle to ensure copies. 
 
-PCR followed 25 more cycles of 94 degrees Celsius for 30 seconds, 55 degrees Celsius for 30 seconds, 72 degrees Celsius for 1 minute. Finally, 72 degrees Celsius for 10 minutes, and 4 degrees Celsius of holding. 
+PCR followed 25 more cycles of 94 degrees C for 30 seconds, 55 degrees C for 30 seconds, 72 degrees C for 1 minute. Finally, 72 degrees C for 10 minutes, and 4 degrees C of holding. 
 
 This resulted in a total number of 35 cycles. 
 
 #### Gel Electrophoresis 
 
-Following PCR, I used gel electrophoresis to separate mixtures of DNA by molecular size running on 2 percent Agarose gel with SYBR Safe Dye added to it. I pipetted about 4 ul of my sample into the gel which then ran using 140V for 30 minutes. 
+Following PCR, gel electrophoresis was used running on 2 percent Agarose gel with SYBR Safe Dye added to it. 4 ul of each sample was pipetted onto the gel and ran under 140V for 30 minutes. 
 
-After, I photographed the final product of gel electrophoresis and noted band intensity and successful amplification.  
+I photographed the final product of gel electrophoresis and noted band intensity and successful amplification.  
 
 #### Exo-SAP
 On September 23, 19, after successful amplification for gel electrophoresis, PCR products were cleaned with ExoSAP (Invitrogen) and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA). This was meant to digest the samples for a better Sanger Sequencing template. 
 
 ### PCR of Uncultured Data (+ Illumina)
 
-I then began the PCR protocol for the Uncultured Sample (September 23, 2019). My master mix followed the equation (n+1) + 10% (+ 1 accounting for control, and 10% accounting for any mess-ups). PCR Ingredients for the uncultured samples called for 10 ul of AMP, 0.8 ul of 10 uM Iseq 165 F, 0.8 ul of 10 uM Iseq 165 R, 1ul of BSA, 1 ul of the template of water for the control, and 6.4 ul of H2O. 
+Following gel electrophoresis, PCR products were purified using AmpureXP magnetic beads (Beckman-Coulter) and quantitated using a PicoGreen fluorescent assay (Invitrogen) on a Tecan Infinite M Plex plate reader (September 23, 2019). 
 
-In total, I had 77 ul of AMP,6.2 ul of 10 uM Iseq 165 F, 6.2 ul of 10 uM Iseq 165 R, 7.7 ul of BSA, 1 ul of the template of water for the control, and 49.5 ul of H2O (for 7 samples total, including control).
+My master mix followed the equation (n+1) + 10% (+ 1 accounting for control, and 10% accounting for any mess-ups). In total, I had 77 ul of AMP,6.2 ul of 10 uM Iseq 165 F, 6.2 ul of 10 uM Iseq 165 R, 7.7 ul of BSA, 1 ul of the template of water for the control, and 49.5 ul of H2O (for 7 samples total, including control).
+
+Purified PCR products were used as the template for a second round of PCR, which served to attach unique pairs of forward and reverse Illumina barcodes (Nextera XT Index 2 kit). All other components of the PCR mixtures were as for the first-round PCR. These reactions were cycled at 95 degrees C for 3 minutes, then 8 cycles of: 95 degrees C for 30 s, 55 degrees C for 30s, and 72 degrees C for 30s, followed by a 5 minute elongation cycle at 72 degrees C. 
 
 The PCR Cycle started with the PCR Conditioning starting from step one of 95 degrees Celsius for 3 minutes, then 95 degrees Celsius for 30 seconds, 55 degrees Celsius for 30 seconds, 72 degrees Celsius for 30 seconds, 72 degrees for 5 minutes, and finally a 4 degrees Celsius hold. This went on for 25 cycles, resulting in PCR products 1,024 times smaller than the previous PCR.  
 
 The following day, the Culture Free Samples underwent another round of PCR (with 8 more cycles) for a total of 32 rounds of PCR (September 25, 2019). 
 
-#### Gel Electrophoresis 
+#### Qubit 
+PCR products were then purified and normalized with a SequelPrep normalization plate (Invitrogen), pooled, and then quantified once again with a Qubit 4 fluorometer (Invitrogen) and a TapeStation 4200 (Agilent) to verify library size and concentration. 
 
-I used gel electrophoresis to analyze the sample DNA by its molecular size (September 25, 2019). Gel Electrophoresis was made using 2 percent Agarose gel with SYBR Safe Dye added to it. I pipetted about 4 ul of my sample into the gel which then ran again using 140V for 30 minutes. 
-
-After, I photographed the final product of gel electrophoresis and noted band intensity and successful amplification. 
-
-##### Quibit 
-
-As an extra step to prepare for sending out my samples, I used Quibit again using 1 ul of sample and 199 ul of Solution. 
-
-#### Exo-SAP
-Again, for the culture-free samples, PCR products were cleaned with ExoSAP (Invitrogen) and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA). This was meant to digest the samples for a better Sanger Sequencing template. 
+#### Illumina Library 
+This library was then diluted to the loading concentration (50 pM) and combined with an Illumina PhiX spike-in library (5% spike in) and sequenced on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 ## Sequencing and Editing
 
@@ -186,7 +181,7 @@ culture_data <- read.csv(
 culture_data %>%
   filter(student_name == "Angela_Jocson") %>%
   filter(dilution_1_10_or_100 == "100") %>%
-  ggplot(aes(x = sample_group, 
+  ggplot(aes(x = sample_group,
              y = as.numeric(number_of_colonies))) +
   geom_boxplot() +
   ggtitle("Comparison of colony abundances
@@ -207,7 +202,7 @@ From this collected data, I used a box plot to see the average and any outliers 
 culture_data %>%
   filter(student_name == "Angela_Jocson") %>%
   filter(dilution_1_10_or_100 == "100") %>%
-  wilcox.test(data = ., 
+  wilcox.test(data = .,
               as.numeric(number_of_colonies) ~ sample_group) %>%
   broom::glance(x = .) %>%
   knitr::kable()
@@ -250,7 +245,7 @@ Boxplots from culture data show that while the number of colonies between the tw
 
 As my samples werent sent to a lab and returned as sequenced DNA files, each DNA file was analyzed as whether they had failed or ran completely. Files that ran completely were cleaned and trimmed to be adjusted. I organized my data into a table in order to properly categorize and document the edits that were made to each successful sequence. 
 
-# Table for each of my sequences 
+## Table for each of my sequences 
 | Sample ID | Original File Name     | Corrected File name                    | Usability | Length after Trimming | Manually Adjusted Bases |
 |-----------|------------------------|----------------------------------------|-----------|-----------------------|-------------------------|
 | 1A        | 1a_100x_AJ_27f_A10.ab1 | 1a_100x_AJ_27f_A10_AJ_Failed.ab1       | No        | N/A                   | N/A                     |
@@ -265,7 +260,7 @@ As my samples werent sent to a lab and returned as sequenced DNA files, each DNA
 Successful sequences were 3A, 2B, and 3B. The other sequences had failed to run code (showing 'NNNN only) or had too much noise (2A). The data was then trimmed and sequenced to be ready for alignment with the outgroup *Thermus aquaticus* strain YT-1 16 S. Any ambiguity was manually corrected following [the IUPAC ambiguity code](https://droog.gs.washington.edu/parc/images/iupac.html).
 
 
-# Table for each of my successful Sanger Sequences after BLAST 
+## Table for each of my successful Sanger Sequences after BLAST 
 | Sample | Description                           | Percent Identity | Query Cover | Ascension  | E Value |
 |--------|---------------------------------------|------------------|-------------|------------|---------|
 | 1A     | Sequence Failed                       |                  |             |            |         |
@@ -292,6 +287,10 @@ Following successful sequencing, my sequences were then aligned for proper phylo
 **Figure 5:** Mr. Bayes Phylogenetic tree run on Geneious Primer from Sanger Sequencing Data. Sequences that ran are 3A, 2B, and 3B with an outgroup of *Thermus aquaticus* Strain YT-1 16 S.
 
 The PhyML Tree used the parammeters of substitution model of GTR with a value of 100 Bootstraps. Mr. Bayes ran also under GTR, a rate variation of invgamma, a chain length of 1,100,000, a subsampling freq of 200, and a burn-in length of 100,000. Phylogenetic differences between the two trees are based on the placement of 2b in relation to the related 3A and 3B and the outgroup. I found that both trees strongly associate 3A and 3B together with PhyML tree's bootstrap value of 100 and Mr. Bayes is about 0.999 (Figure 4, 5, ML bootstrap 100 ~= Bayes 0.999). While PhyML associates 2B more closely related to 3A and 3B, Mr. Bayes places 2B alongside the outgroup.  
+
+## Trimmmomatic
+
+## BLAST analysis 
 
 # Discussion 
 ## Summary
