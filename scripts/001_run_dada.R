@@ -37,7 +37,7 @@ library("phyloseq")
 # Accessed October 19, 2017
 
 # set the base path for our input data files
-path <- "/data/raw_data"
+path <- "/data/my-illumina-sequences/unzipped"
 
 # Sort ensures samples are in order
 filenames_forward_reads <- sort(list.files(path, pattern = ".fastq"))
@@ -56,7 +56,7 @@ plotQualityProfile(filenames_forward_reads[1:6])
 filter_path <- file.path("output", "filtered")
 filtered_reads_path <- file.path(filter_path,
                                  paste0(sample_names,
-                                        "_filt.fastq.gz"))
+                                        "_filt.fastq"))
 
 # See ?filterAndTrim for details on the parameters
 # See here for adjustments for 454 data:
@@ -77,6 +77,9 @@ kable(filtered_output,
       col.names = c("Reads In",
                     "Reads Out"))
 
+# get paths of all files that made it through trimming
+filtered_reads_path <- list.files(filter_path, full.names = TRUE)
+
 # this build error models from each of the samples
 errors_forward_reads <- learnErrors(filtered_reads_path,
                                     multithread = TRUE)
@@ -90,13 +93,20 @@ plotErrors(errors_forward_reads,
 dereplicated_forward_reads <- derepFastq(filtered_reads_path,
                                          verbose = TRUE)
 
+# get names of all files that made it through trimming
+filenames_filtered_reads <- list.files("output/filtered")
+
+# Extract sample names, assuming filenames have format: SAMPLENAME
+sample_names <- sapply(strsplit(filenames_filtered_reads, "\\."), `[`, 1)
+
 # Name the derep-class objects by the sample names
 names(dereplicated_forward_reads) <- sample_names
 
 # run dada2 -- more info here:
 # https://benjjneb.github.io/dada2
 dada_forward_reads <- dada(dereplicated_forward_reads,
-                           err = errors_forward_reads)
+                           err = errors_forward_reads,
+                           multithread = TRUE)
 
 # check dada results
 dada_forward_reads
@@ -121,15 +131,12 @@ non_chimeric_reads <- round(sum(sequence_table_nochim) / sum(sequence_table),
 
 # Build a table showing how many sequences remain at each step of the pipeline
 get_n <- function(x) sum(getUniques(x)) # make a quick function
-track <- cbind(filtered_output, # already has 2 columns
-               sapply(dada_forward_reads, get_n),
+track <- cbind(sapply(dada_forward_reads, get_n),
                rowSums(sequence_table),
                rowSums(sequence_table_nochim))
 
 # add nice meaningful column names
-colnames(track) <- c("Input",
-                     "Filtered",
-                     "Denoised",
+colnames(track) <- c("Denoised",
                      "Sequence Table",
                      "Non-chimeric")
 
@@ -138,6 +145,10 @@ rownames(track) <- sample_names
 
 # produce nice markdown table of progress through the pipeline
 kable(track)
+
+# Remove any sequences shorter than 50 because can't assign their taxonomy 
+sequence_table_nochim <-
+  sequence_table_nochim[, nchar(colnames(sequence_table_nochim)) > 50]
 
 # assigns taxonomy to each sequence variant based on a supplied training set
 # made up of known sequences
@@ -172,3 +183,7 @@ export_taxa_table_and_seqs <- function(sequence_table_nochim,
 export_taxa_table_and_seqs(sequence_table_nochim,
                            "output/sequence_variants_table.txt",
                            "output/sequence_variants_seqs.fa")
+
+# save necessary files from data pipeline to use with phyloseq
+save(sequence_table_nochim, file = "output/dada-results/seqtable.Rda")
+save(taxa, file = "output/dada-results/taxatable.Rda")
