@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# A sample script to process some files
+# Angela Jocson
+# October 23, 2019
+# aljocson@dons.usfca.edu
+
+echo "Hello World"
