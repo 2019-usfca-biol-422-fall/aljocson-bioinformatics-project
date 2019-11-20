@@ -43,10 +43,12 @@ metadata_in <- metadata_in[grepl(pattern = "(AJ|control)",
 
 # Construct phyloseq object (straightforward from dada2 outputs)
 phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,
-                                   taxa_are_rows = FALSE), # sample-spp matrix
-                         sample_data(metadata_in), # metadata for each sample
-                         tax_table(taxa)) # taxonomy for each sequence variant
+                                   taxa_are_rows = FALSE),
+                         sample_data(metadata_in),
+                         tax_table(taxa)) 
+# sample-spp matrix
+# metadata for each sample
+# taxonomy for each sequence variant
 
 # save phyloseq and melted_phyloseq objects to use in the Rmd file
 save(phyloseq_obj, file = "output/phyloseq_obj.Rda")
-
