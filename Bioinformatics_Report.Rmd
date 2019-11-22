@@ -28,26 +28,19 @@ To get a better idea as to the real danger of infections caused by bacteria in p
 
 My project attempts to look more into whether there is a need for more regulation on the hygiene of our cell phones (especially if we work in a hospital setting) [@sepehri2009bacterial]. From a study done by Shakir et. al (2010), they found that from fifty-three cell phones belonging to orthopedic surgeons, 83% had pathogenic bacteria at initial testing and 8% had pathogenic bacteria after disinfection [@sadat2010bacterial]. Furthermore, of the cell phones who did have a high rate of pathogenic bacteria and organic material contamination had a decrease in pathogens/contamination after a single disinfecting process [-@sadat2010bacterial]. Similarly, in 2014, Gashaw et. al found that even a simple decontamination with 70% alcohol was effective in minimizing bacterial contamination on the mobile phones of health care workers [gashaw2014prevalence]. Both studies insist that appropriate infection prevention measures on mobile phones should be taken to minimize any potential risks due to such high rates of contamination [gashaw2014prevalence]. These studies are key in stressing the benefits of implementing cell-phone sanitizing protocols within hospitals. This also brings into question as to whether hospitals actually implement these vital protocols, despite its importance.  
 
-My main question is to see whether students working in hospitals have fewer bacterial species growing on their phones than students who work outside of the medical field and do not have to follow hospital protocols for sterility. Therefore, my hypothesis is that students who do work at hospitals with their phones on hand tend to sanitize/ sterilize their phones more, thus having significantly fewer bacteria than regular college kids who have no necessary cleaning routine for their cell phones.
+My main question is whether students working in hospitals have fewer bacterial species growing on their phones than students who work outside of the medical field and do not have to follow hospital protocols for sterility. Therefore, my hypothesis is that students who do work at hospitals with their phones on hand tend to sanitize/ sterilize their phones more, thus having significantly fewer bacteria than regular college kids who have no necessary cleaning routine for their cell phones.
 
-In this project, I wanted to test different cell phone screens of regular college students who do not work in the health professions versus college students who are cleared to work in a hospital setting. I was particularly interested in college students due to their high-use of phones and from a study finding that there is a higher level of bacterial contamination found in secondary students' mobile [@koljalg2017high]. Furthermore, I chose to test on a University campus, for similar reasons to Ross et. al in 2015, due to the high human population density and variable building usage including lecture halls, gyms, restaurants, residences, and a daycare [@ross2015microbial]. Thus, I sampled random students at the University of San Francisco but limited my study to focus on students who carry their phones everywhere (even when working in clinical sites such as Saint Mary's Hospital. After collecting my samples, I prepared my collected swabs to be either cultured or culture free and analyzed them for bacterial growth based on number of colonies and different morphotypes. Further analysis involved PCR protocol, DNA sequencing and editing into phylogenetic trees, and BLASTing to identify the bacteria found in these cell phones.
+In this project, I wanted to test different cell phone screens of regular college students who do not work in the health professions versus college students who are cleared to work in a hospital setting. I was particularly interested in college students due to their high-use of phones and from a study finding that there is a higher level of bacterial contamination found in secondary students' mobile [@koljalg2017high]. Furthermore, I chose to test on a University campus, for similar reasons to Ross et. al in 2015, due to the high human population density and variable building usage including lecture halls, gyms, restaurants, residences, and a daycare [@ross2015microbial]. Thus, I sampled random students at the University of San Francisco in San Francisco, California but limited my study to focus on students who carry their phones everywhere (even while working in clinical sites such as Saint Mary's Hospital in San Francisco, California). After collecting my samples, I prepared my collected swabs to be either cultured or culture free and analyzed them for bacterial growth based on number of colonies and different morphotypes.This left me with 12 samples (n = 2 swabs for each student, 12 total) to extract and sequence for bacterial DNA. Further analysis involved PCR protocol, DNA sequencing and editing into phylogenetic trees, and BLASTing to identify the bacteria found in these cell phones.
 
 My results confirmed that bacterial growth is evident in all cell phones, however, the amount of bacteria morphotypes and colonies found in the cell phones of regular students was statistically more than the amount found in the cell phones of nursing students. This result can be attributed to the phone-sanitizing protocols within hospitals which had been notably implemented at Saint Mary's Hospital where the sampled nursing students have their clinicals. However, I also identified the bacteria found in the phones of the regular students (2B and 3B) as *Staphylococcus warneri* strain and *Acinetobacter sp. strain* respectively and one nursing student's phone had matched as the *Moraxella osloensis* strain. Interestingly, all three of the sequenced bacteria were as equally harmful as the other, regardless of whether the student was in nursing or not. The difference in my two results indicates that while cell phones of nursing students are more sanitary in number of bacterial growth, their cell phones still had the potential to carry dangerous and infectious diseases. This emphasizes the need for even more phone regulation when entering a hospital site to avoid any possible contamination when in the presence of sick patients.  
 
-### Study Question
-Do students who work in hospitals/ health professions have fewer bacterial species growing on their cell phones than students who work outside of the medical field? 
-
-### Hypothesis
-Students who enter hospitals with their phones tend to sanitize before and after entering hospital rooms, thus having less bacteria than those who can use their phones freely.
-
-### Study Design
-I sampled 6 total students at the University of San Francisco, 3 Nursing students who work at the clinical site of St. Mary's hospital (where they are supposed to clean off their phones) versus 3 students who carry their phones regularly on a daily basis. This left me with 12 samples (n = 2 swabs for each student, 12 total) to extract and sequence for bacterial DNA. 
-
 # Methods
+
+I wanted to compare the bacterial growth and diversity within my sample group's cell phone screens. My study first involved sample collection to create both a culture and culture free condition for each sample (n = 6, 12 total). To note bacterial growth and diversity, I prepared my samples following their conditions to grow on dish culture plates and set up either Touchdown PCR Protocol for Sanger Sequencing or PCR for Illumina Sequencing. To confirm successful preparation of each sample, I also used gel electrophoresis and Quibit Fluorometers. Following sequencing, I edited and trimmed my successful sequences using Geneious Prime V.4 2019.2 or bash scripts For further analysis, I used phylogenetic trees and BLAST to sort out my data and support my results. 
 
 ## Sampling Plan 
 
-In order to confirm the necessary cell phone sanitizing routine when working in hospitals/ medical professional settings, I sampled this group of Nursing students directly after they come back from working at their clinical site at Saint Mary's Hospital at 1:30 pm, Tuesday, September 3. I tried to avoid students cleaning their phones solely because of their knowledge of being tested and gained each student's consent to swab their phones during the time and site of collection. After swabbing the health professionals, I planned on swabbing the phones of regular students who use their phones freely around the same time (2:10 pm) to avoid bacterial differences due to different samples using their phones for longer further in the day. Thus, I sampled the second group of students on Tuesday, September 3 as well on the University of San Francisco Campus. 
+In order to confirm the necessary cell phone sanitizing routine when working in hospitals/ medical professional settings, I sampled this group of Nursing students directly after they come back from working at their clinical site at Saint Mary's Hospital in San Francisco, California at 1:30 pm, Tuesday, September 3rd. I tried to avoid students cleaning their phones solely because of their knowledge of being tested and gained each student's consent to swab their phones during the time and site of collection. After swabbing the health professionals, I planned on swabbing the phones of regular students who use their phones freely around the same time (2:10 pm) to avoid bacterial differences due to different samples using their phones for longer further in the day. Thus, I sampled the second group of students on Tuesday, September 3rd as well on the University of San Francisco Campus. 
 
 ## Sample Collection 
 
@@ -61,9 +54,7 @@ I froze one of my sample for DNA extraction and mixed the other sample with 200 
 
 #### Culture Measurement
 
-The following day, I measured each culture plate [for growth of colonies and monophytes.](http://https://docs.google.com/spreadsheets/d/1GTZFUkE8nhY6hZebgxoPr_dam9kGWzlqFg1O4--MyUE/edit#gid=0). 
-
-Each sample was incubated at 37 degrees Celsius and recounted 5 days after. 
+The following day, I measured each culture plate [for growth of colonies and monophytes.](http://https://docs.google.com/spreadsheets/d/1GTZFUkE8nhY6hZebgxoPr_dam9kGWzlqFg1O4--MyUE/edit#gid=0). Each sample was incubated at 37 degrees Celsius and recounted 5 days after. 
 
 ## DNA Extraction Protocol 
 
@@ -73,19 +64,13 @@ I selected my culture plates with the most colonies for extraction. With a 1.5 m
 
 ### Culture Free DNA Extraction
 
-The original frozen sample that was set aside during sample collection was redistributed and prepped for DNA Extraction (n = 6).
-
-I also followed the Sigma Plant RED Extract-N-AMP PCR Kit for preparation of my amplifications [@amplicon201316s]. Once finished, these samples followed the Qubit extraction (6 total). I used Qubit Fluorometric Quantification to quantify concentration of extraction.
-
-I recorded all data [with dilution id, concentration, and whether it was the culture or culture-free extraction.](https://docs.google.com/spreadsheets/d/19dQy8kxYwU4dCJ-AuaFwOA8AL4E97rX6VH8wT3gvDuc/edit#gid=0).
+The original frozen sample that was set aside during sample collection was redistributed and prepped for DNA Extraction (n = 6). I also followed the Sigma Plant RED Extract-N-AMP PCR Kit for preparation of my amplifications [@amplicon201316s]. Once finished, these samples followed the Qubit extraction (6 total). I used Qubit Fluorometric Quantification to quantify concentration of extraction. I recorded all data [with dilution id, concentration, and whether it was the culture or culture-free extraction.](https://docs.google.com/spreadsheets/d/19dQy8kxYwU4dCJ-AuaFwOA8AL4E97rX6VH8wT3gvDuc/edit#gid=0).
 
 ## PCR Protocol
 
 ### PCR for Culture (+ Sanger)
 
-I set up a Touchdown PCR for the cultured samples (n = 6). Including my negative control, I had a total of 7 samples for PCR. The volumes for my PCR mix were, per sample (n = 7) 10 ul of AMP, 0.8 ul of 27 F primer, 0.8 of 1492 R primer, 1 ul of BSA, 6.4 ul of H2O and 1 ul of Template DNA or 1 ul of water for the control. 17 ul of my master mix was added to each PCR tube (7 total), although the original protocol called for 19 ul, I ended up not having enough mix.
-
-The PCR Cycle followed 95 degrees C for 5 minutes, 94 degrees C for 30 seconds, 65 degrees C for 30 seconds, and 72 degrees C for 1 minute. This went on for 10 cycles and each step going down 1 degree per cycle to ensure copies. PCR followed 25 more cycles of 94 degrees C for 30 seconds, 55 degrees C for 30 seconds, 72 degrees C for 1 minute. Finally, 72 degrees C for 10 minutes, and 4 degrees C of holding. 
+I set up a Touchdown PCR for the cultured samples (n = 6). Including my negative control, I had a total of 7 samples for PCR. The volumes for my PCR mix were, per sample (n = 7) 10 ul of AMP, 0.8 ul of 27 F primer, 0.8 of 1492 R primer, 1 ul of BSA, 6.4 ul of H2O and 1 ul of Template DNA or 1 ul of water for the control. 17 ul of my master mix was added to each PCR tube (7 total), although the original protocol called for 19 ul, I ended up not having enough mix. The PCR Cycle followed 95 degrees C for 5 minutes, 94 degrees C for 30 seconds, 65 degrees C for 30 seconds, and 72 degrees C for 1 minute. This went on for 10 cycles and each step going down 1 degree per cycle to ensure copies. PCR followed 25 more cycles of 94 degrees C for 30 seconds, 55 degrees C for 30 seconds, 72 degrees C for 1 minute. Finally, 72 degrees C for 10 minutes, and 4 degrees C of holding. 
 
 #### Gel Electrophoresis 
 
@@ -109,282 +94,35 @@ This library was diluted to the loading concentration (50 pM) and combined with 
 
 ## Sequencing and Editing for Culture Data 
 
-After being sent out from the lab, my sequences were uploaded onto Geneious Prime V.4 2019.2.3 for editing and IUPAC Coding (7 total, including water). Only my samples that ran (3a, 2b, and 3b) were edited to make sure there was not too much noise. Any sequence that showed only five base pairs were regarded as a "fail". For my sequences that ran, I corrected any ambiguous DNA base pairs and using [the IUPAC ambiguity code](https://droog.gs.washington.edu/parc/images/iupac.html). Once my samples had a high HQ%, I used MAFFT alignment to realign the working sequences to DNA from my outgroup *Thermus aquaticus* strain YT-1 16 S (downloaded from the NCBI GenBank) [@katoh2013mafft]. The realignment was trimmed at the beginning and end for each sequence to align perfectly with the outgroup. I used PhyML and Mr. Bayes to create two phylogenetic trees for my DNA sequences to the outgroup. The PhyML Tree followed a substitution model of GTR with a Branch Support of Boostrap (100 Bootstraps) [@guindon2010new]. Any other selection were set to the default mode and the tree was created. I selected *Thermus aquaticus* as the root for my tree to act as the outgroup for my samples' branches. Posterior probability was measured as a support value for quantifying relatedness between the branches. To run Mr. Bayes, my realigned sequence that I ran for PhyML was selected again. Mr. Bayes parameters had a substitution model of GTR, a rate variation of invgamma, a chain length of 1,100,000, a subsampling freq of 200, and a burn-in length of 100,000 [@suchard2006bali]. Any other category was set to default. Mr. Bayes resulted in three files which showed Mr. Bayes posterior output for estimates, tree view, and trace. BLAST was done using NCBI BLAST. Each freshly cleaned sequence was copied into NCBI BLAST query sequence from Geneious Prime V.4 2019.2.3. For each, 16S Ribosomal RNA sequences were selected from the database and ran for results.
+After being sent out from the lab, my sequences were uploaded onto Geneious Prime V.4 2019.2.3 for editing and IUPAC Coding (7 total, including water). Only my samples that ran (3a, 2b, and 3b) were edited to make sure there was not too much noise. Any sequence that showed only five base pairs were regarded as a "fail". For my sequences that ran, I corrected any ambiguous DNA base pairs and using [the IUPAC ambiguity code](https://droog.gs.washington.edu/parc/images/iupac.html). Once my samples had a high HQ%, I used MAFFT alignment to realign the working sequences to DNA from my outgroup *Thermus aquaticus* strain YT-1 16 S (downloaded from the NCBI GenBank) [@katoh2013mafft]. The realignment was trimmed at the beginning and end for each sequence to align perfectly with the outgroup. I used PhyML and Mr. Bayes to create two phylogenetic trees for my DNA sequences to the outgroup. The PhyML Tree followed a substitution model of GTR with a Branch Support of Boostrap (100 Bootstraps) [@guindon2010new]. Any other selection were set to the default mode and the tree was created. I selected *Thermus aquaticus* as the root for my tree to act as the outgroup for my samples' branches. Posterior probability was measured as a support value for quantifying relatedness between the branches. To run Mr. Bayes, my realigned sequence that I ran for PhyML was selected again. Mr. Bayes parameters had a substitution model of GTR, a rate variation of invgamma, a chain length of 1,100,000, a subsampling frequency of 200, and a burn-in length of 100,000 [@suchard2006bali]. Any other category was set to default. Mr. Bayes resulted in three files which showed Mr. Bayes posterior output for estimates, tree view, and trace. BLAST was done using NCBI BLAST. Each freshly cleaned sequence was copied into NCBI BLAST query sequence from Geneious Prime V.4 2019.2.3. For each, 16S Ribosomal RNA sequences were selected from the database and ran for results.
 
 ## Sequencing and Editing for Culture Free Data
 
-All Illumina sequences were edited using the command-line from Terminal from my 'my-illumina-sequences' folder. First, sequences were counted using various script files given and unzipped as FastQC files. The sequences that returned as FastQC files were analyzed by their FastQC reports. FastQC provided a Quality Control report to spot problems that originate in the sequencer or in the library material. I identified my quality Illumina sequence and trimmed and edited them using Trimmomatic. Trimmomatic on the command line [@bolger2014trimmomatic]. FastQC files were processed into fasta files for better encoding of the BLAST results. BLAST was run on the terminal for all Illumina sequences and summarized via the cut function. 
+All Illumina sequences were edited using bash scripts. First, all sequences were unzipped into fastq files. These files were analyzed by their FastQC reports for quality of sequencing. I then trimmed each sequencing using Trimmomatic [@bolger2014trimmomatic]. Trimmomatic chopped off the first and last 5 nucleotides of each sequence and looked at everyone 8 nucleotides to see if they matched a quality level above 25. Any sequence that did not hae a minimum length of 140 was disregarded. After proper editing, my fastq files were converted into fasta files for better encoding of the BLAST results. BLAST was run on the terminal for all Illumina sequences and summarized via the cut function [madden2013blast].
 
 # Results
-```{r load-libraries}
-# Library of all installed packages to run data
-library("ggplot2")
-library("dplyr")
-library("tidyr")
-library("readr")
-library("broom")
-library("knitr")
-library("citr")
-library("lintr")
-library("dada2")
-library("phyloseq")
-```
-## Qubit Data
 
-Following protocol, I had collected Qubit data from all my samples to ensure DNA content. The Qubit fluorometer 4 (Invitrogen) uses fluorescent dyes to determine the concentration of the nucleic acids in the samples. This provided a more accurate measurement of how much DNA was successfully extracted in my samples. 
+I wanted to confirm that there was a statistically significant difference between the bacterial growth and diversity of Nursing Students and Regular Students and note any phylogenetic difference between the bacteria on each groups' cell phones. My samples confirmed proper PCR set-up as all my sequences had an appropriate Qubit level and most of my sequences had successfully run gel electrophoresis except for one (Figure 1, 1B). I gathered by my culture data and culture free data of each sample to test colony abundances, morphotypes, and sequencing. I confirmed that there was a higher colony abundance and colony morphoptypes on the cell phones of Regular Students compared to Nursing Students using a Wilcox test. Further sequence analysis involved BLAST results and phylogenetic trees (PhyML and Mr. Bayes) to compare phylogeny of my sequenced bacteria. I found that while each sample had tested for bacterial growth, Regular students had greater phylum abundance and diversity in comparison to Nursing Students. However, I also found that the bacteria in Nursing Students still had bacteria that was just as infectious as the bacteria found in Regular Students.
 
-|   Sample Group  | Sample ID  | Dilution | Qubit Concentration (ng/ml) |  Sample Type |
-|:---------------:|:----------:|:--------:|:---------------------------:|:------------:|
-| Nursing Student |     1a     |    100   |             5.13            |    Culture   |
-| Nursing Student |     2a     |    100   |             8.09            |    Culture   |
-| Nursing Student |     3a     |    100   |             9.75            |    Culture   |
-| Regular Student |     1b     |     1    |             7.08            |    Culture   |
-| Regular Student |     2b     |     1    |             7.4             |    Culture   |
-| Regular Student |     3b     |     1    |             10.8            |    Culture   |
-| Nursing Student |     1a     |     1    |             6.05            | Culture Free |
-| Nursing Student |     2a     |     1    |             5.52            | Culture Free |
-| Nursing Student |     3a     |     1    |             4.82            | Culture Free |
-| Regular Student |     1b     |     1    |             5.91            | Culture Free |
-| Regular Student |     2b     |     1    |             5.23            | Culture Free |
-| Regular Student |     3b     |     1    |             4.34            | Culture Free |
+## Qubit Data and Gel Electrophoresis
 
-**Table 1:** Table of all Qubit values for each sample. Sample types are separated between Culture data (for Sanger) and Culture Free data (for Illumina). Qubit concentration shows the nanogram of DNA is present with every ml of Qubit solution.
-
-All samples ran with a good a good Qubit value (~3-30 ng/ml), thus indicating a good amount of DNA present in my samples to be confident in preparation for DNA sequencing. 
-
-## Gel Electrophoresis Image 
-
-### Image for Culture Data 
-
-Following PCR Protocol, Gel Electrophoresis was done to analyze DNA molecular size and compare it alongside other samples. Each gel ran on 2 percent Agarose gel with SYBR Safe Dye added to it. These samples ran overnight alongside a ladder (Ez load 1 kb Molecular Ruler) for comparison. 
-
-![Gel Electrophoresis for Culture Data taken on September 11, 2019](data/images/gel_images/2019-09-18_Culture_PCRs_BIOL422_Zimmerman_.jpg)
-
-**Figure 1:** Image of Gel Electrophoresis for Culture Data. PCR bands corresponding from samples 1A, 2A, 3A, 1B, 2B, 3B, and control (left to right) are shown within the red box highlighted. A ladder is shown (furthest to the left) for comparison.
-
-The final gel electrophoresis showcased strong bands are seen in samples 1A, 2B, and 3B. 2A and 3A were described as light bands but are still prominently shown. However, 1b and the control failed to run at all, producing no bands. 
-
-### Image for Culture Free Data
-
-![Gel Electrophoresis for Culture Free Data taken on September 25, 2019](data/images/gel_images/2019-09-25_Culture_free_PCRs_BIOL422_Zimmerman.jpg)
-
-**Figure 2:** Image of Gel Electrophoresis for Culture Free Data. Each PCR bands corresponds to the samples 1A, 2A, 3A, 1B, 2B, 3B, and control (left to right) are shown within the red box highlighted. A ladder is also present (furthest to the left) for comparison.
-
-This final gel was different in comparison to the Culture Data (Figure 1) as these bands appeared much lower within the gel. Bands for 1a, 2a, 1b, and the control all appeared very faintly in comparison to 2b and 3b which were much more distinct white bands. The sample, 3a, appeared most lightly on the gel in comparison to the other run bands. 
-
-These gel images show how the DNA within the samples were separated based on size and charge. This was also done to help indicate whether our PCR protocol would work by confirming that the samples had contained DNA which resulted in this formed bands. 
+I had collected Qubit data from all my samples to ensure DNA content (Table 1). This provided a more accurate measurement of how much DNA was successfully extracted in my samples. All my samples were confirmed  with a high Qubit value (~3-30 ng/ml), thus indicating a good amount of DNA was present in my samples to be confident in preparation for PCR (Table 1). Following Touchdown PCR of my Culture samples, gel electrophoresis was done to analyze DNA molecular size and compare it alongside other samples. Each gel ran on 2 percent Agarose gel with SYBR Safe Dye added to it and ran overnight alongside a ladder (Ez load 1 kb Molecular Ruler) for comparison (Figure 1). My final gel electrophoresis for my Culture Data showcased strong bands are seen in samples 1A, 2B, and 3B. 2A and 3A were described as light bands but are still prominently shown. However, 1b and the control failed to run at all, producing no bands (Figure 1). I also ran gel electrophoresis to confrim my Culture Free samples and found that this gel was different in comparison to the Culture Data (Figure 1) as these bands appeared much lower within the gel (Figure 2). Bands for 1a, 2a, 1b, and the control all appeared very faintly in comparison to 2b and 3b which were much more distinct white bands. The sample, 3a, appeared most lightly on the gel in comparison to the other run bands. These gel images show how the DNA within the samples were separated based on size and charge. This was also done to help indicate whether our PCR protocol would work by confirming that the samples had contained DNA which resulted in this formed bands (Figure 2). 
 
 ## Culture Data 
 
-After ensuring that my samples had run to completion, I also wanted to quantify my culture data for any statistically significant results between my two sample groups by using my previously collected data for counting colony abundances. This data was taken after analyzing my Petri TSA plate samples, using the sample dilutions with the most amount of data.
-
-```{r read-in-culture-data}
-# read in the culture data from csv
-culture_data <- read.csv(
-  "data/raw_data/raw_culture_count_data/BIOL422_culturing_data.csv")
-```
-
-From this collected data, I used a box plot to see the average and any outliers within my data. I also used a statistical test in order to determine how statistically significant my results were. This would allow me to make a confident conclusion as to how to interpret my data.
-
-### Culture Data Colony 100x Box Plot 
-
-```{r filter-and-plot-abundances}
-# filter out only my 100x dilutions and make a boxplot
-culture_data %>%
-  filter(student_name == "Angela_Jocson") %>%
-  filter(dilution_1_10_or_100 == "1") %>%
-  ggplot(aes(x = sample_group,
-             y = as.numeric(number_of_colonies))) +
-  geom_boxplot() +
-  ggtitle("Comparison of colony abundances
-          between Nursing Students and Regular Students", "1x dilution") +
-  xlab("Sample Group") +
-  ylab("Number of Colonies")
-```
-
-**Figure 3:** Boxplot of colony abundances at different sites, 1x dilution. The higher median number, and total number, of colonies from Regular Students versus Nursing Students was statistically significantly between the two sites (Wilcox p = 0.03650, rejec the null hypothesis). 
-
-```{r abundances-stats}
-# run a statistical test to compare the two groups of abundances
-## if p value is greater than 0.05 then fail to
-## reject null hypothesis that they are equal
-
-culture_data %>%
-  filter(student_name == "Angela_Jocson") %>%
-  filter(dilution_1_10_or_100 == "1") %>%
-  wilcox.test(data = .,
-              as.numeric(number_of_colonies) ~ sample_group) %>%
-  broom::glance(x = .) %>%
-  knitr::kable()
-```
-
-I also wanted to look at the different types of morphotypes that appeared from each sample. Using a different variable other than colony abundances was important as colony morphotypes is a common measurement for diversity and/or isolation of the dominant species within bacterial communities [@10.1111/j.1574-6968.1998.tb12903.x]. Colony morphotypes can also be used to identify different species for physiological and genetic purposes [@10.1111/j.1574-6968.1998.tb12903.x]. 
-
-## Culture Data Morphotype 100x Box Plot 
-
-```{r filter-and-plot-morphotypes}
-# filter out only my 100x dilutions and make a boxplot
-culture_data %>%
-  filter(student_name == "Angela_Jocson") %>%
-  filter(dilution_1_10_or_100 == "1") %>%
-  ggplot(aes(x = sample_group,
-             y = as.numeric(number_of_morphotypes))) +
-  geom_boxplot() +
-  ggtitle("Comparison of morphotypes between Nursing Students
-          and Regular Students",
-                "1x dilution") +
-  xlab("Sample Group") +
-  ylab("Number of Morphotypes")
-```
-
-**Figure 4:** Boxplot showing the number of morphotypes from the two different sites. Nursing students morphotypes averaged >5, while Regular students had an average of ~7 morphotypes. There was a difference in the mean number of morphotypes (Wilcox p = 0.05, reject the null hypothesis).
-
-```{r morphotype-stats}
-# run a statistical test to compare the two groups of abundances
-culture_data %>%
-  filter(student_name == "Angela_Jocson") %>%
-  filter(dilution_1_10_or_100 == "1") %>%
-  wilcox.test(data = .,
-              as.numeric(number_of_morphotypes) ~ sample_group) %>%
-  broom::glance(x = .) %>%
-  knitr::kable()
-```
-
-Boxplots from culture data show that the number of colonies between the two groups (Group A - Nursing, Group B - Regular) were statistically different (p = 0.0365, Figure 3). Also seen in the number of morphotypes, their was also a statistically significant that suggests evidence of rejecting the null hypothesis due to p = 0.05 (Figure 4). This data confirms that there the higher number of colonies and different morphotypes within Group B (regular college students) in comparison to Group A (nursing students) is statistically significant.
+After ensuring that my samples had run to completion, I also wanted to quantify my culture data for any statistically significant results between my two sample groups by using my previously collected data for counting colony abundances and morphotypes. This data was taken after analyzing my Petri TSA plate samples, using the sample dilutions with the most amount of data. From this collected data, I used a box plot to see the average and any outliers within my data (Figure 3, 4). I also used a statistical test in order to determine how statistically significant my results were to make a confident conclusion as to how to interpret my data. My boxplots from my culture data show that the number of colonies between the two groups (Group A - Nursing, Group B - Regular) were statistically different (p = 0.0365, Figure 3). Also seen in the number of morphotypes, their was also a statistically significant that suggests evidence of rejecting the null hypothesis due to p = 0.05 (Figure 4). This data confirms that there the higher number of colonies and different morphotypes within Group B (regular college students) in comparison to Group A (nursing students) is statistically significant.
 
 ## Sequencing 
 
-As my samples were sent to a lab and returned as sequenced DNA files, each DNA file was analyzed as whether they had failed or ran completely. Files that ran completely were cleaned and trimmed to be adjusted. I organized my data into a table in order to properly categorize and document the edits that were made to each successful sequence. 
+### Sanger Sequencing 
 
-## Table for each of my sequences 
+As my samples were sent to a lab and returned from Sanger Sequencing, each DNA file was analyzed as whether they had failed or ran completely. Files that ran completely were cleaned and trimmed to be adjusted into a higher quality sequences (Table 2). My successful sequences were 3A, 2B, and 3B. The other sequences had failed to run code (showing 'NNNN only) or had too much noise (2A). My trimmed sequences were also trimmed further in order to align with the sequence of my outgroup *Thermus aquaticus* strain YT-1 16 S. Any ambiguity was manually corrected following [the IUPAC ambiguity code](https://droog.gs.washington.edu/parc/images/iupac.html). The edited sequences were analyzed using BLAST through NCBI GenBank (Table 3). Each successful sequence had a high percent identity with its match found. 3A was matched with the *Moraxella osloensis* strain, 2B with the *Staphylococcus warneri* strain, and finally 3B had the *Acinetobacter* strain. Other strains had failed to sequence therefore not coming with any matches. Following successful sequencing, my sequences were then aligned for proper phylogenetic analysis using Geneious Prime. My phylogenetic trees represent the relatedness between my sequences and the outgroup, *Thermus aquaticus*. Phylogenies allow for easier identification of the bacteria found on my samples. Two phylogenetic trees were created using different methods of construction, PhyML and Mr. Bayes. The PhyML Tree used the parameters of substitution model of GTR with a value of 100 Bootstraps (Figure 5). Mr. Bayes ran also under GTR, a rate variation of invgamma, a chain length of 1,100,000, a subsampling freq of 200, and a burn-in length of 100,000 (Figure 6). Phylogenetic differences between the two trees are based on the placement of 2b in relation to the related 3A and 3B and the outgroup. I found that both trees strongly associate 3A and 3B together with PhyML tree's bootstrap value of 100 and Mr. Bayes is about 0.999 (Figure 5, 5, ML bootstrap 100 ~= Bayes 0.999). While PhyML associates 2B more closely related to 3A and 3B, Mr. Bayes places 2B alongside the outgroup.  
 
-| Sample ID | Original File Name     | Corrected File name                    | Usability | Length after Trimming | Manually Adjusted Bases |
-|-----------|------------------------|----------------------------------------|-----------|-----------------------|-------------------------|
-| 1A        | 1a_100x_AJ_27f_A10.ab1 | 1a_100x_AJ_27f_A10_AJ_Failed.ab1       | No        | N/A                   | N/A                     |
-| 2A        | 2a_100x_AJ_27f_B10.ab1 | 2a_100x_AJ_27f_B10_AJ_Failed_Blast.ab1 | No        | N/A                   | N/A                     |
-| 3A        | 3a_100x_AJ_27f_C10.ab1 | 2b_1x_AJ_27f_E10_AJ Cleaned.ab1        | Yes       | 520                   | 2                       |
-| 1B        | 1b_1x_AJ_27f_D10.ab1   | 1b_1x_AJ_27f_D10_AJ_Failed.ab1         | No        | N/A                   | N/A                     |
-| 2B        | 2b_1x_AJ_27f_E10.ab1   | 2b_1x_AJ_27f_E10_AJ Cleaned.ab1        | Yes       | 518                   | 8                       |
-| 3B        | 3b_1x_AJ_27f_F10.ab1   | 3b_1x_AJ_27f_F10_AJ_Cleaned.ab1        | Yes       | 496                   | 2                       |
+## Illumina Sequences 
 
-**Table 2:** Table showing the locus of each sequence (16S), original file name of each sequence, the file name after correcting or marking as failed, its usability (usable vs unusable), length after trimming, and number of manually corrected in the remaining sequence after trimming.
+After unzipping my Illumina Sequences, I looked at my fastq files' FastQC Reports to see level of quality of the Illumina Sequences ran. Each of my sequences were not flagged for poor quality and was regarded as a successful run (Table 4). AJ-1a_S61_L001_R1_001 and AJ-1b_S64_L001_R1_001 both had the same Sequence Length of 147-151 while AJ-2a_S62_L001_R1_001 and AJ-3b_S66_L001_R1_001 also had the same length of 41-151 (Table 4). AJ-2b_S65_L001_R1_001 and AJ-3a_S63_L001_R1_001 had sequence lengths that were one off from the first two groups respectively (Table 4). I looked at %GC which indicates all counted G and C base pairs over total count of all possible base pairs (Count(G + C)/Count(A + T + G + C) * 100%.). Sequences AJ-1a_S61_L001_R1_001, AJ-1b_S64_L001_R1_001, and AJ-2b_S65_L001_R1_001 had a %GC of 52% while the rest of the sequences had 53%. All %GC were within the range to have all the sequences be regarded as quality sequences (Table 4). For further quality of my sequences, I used Trimmomatic to edit my sample sequences. 'Before Trimming' data was taken from the FastQC reports under 'Total Sequences' for each sample (Table 5). Total sequences is a count of the total number of sequences processed. 'After Trimming' data was taken from the command line using the grep-c function within my illumina sequence data. Percentage survived average these two data sets. Samples AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001 were able to keep around 95% of the original sequences. While samples AJ-1a_S61_L001_R1_001, AJ-2a_S62_L001_R1_001, and AJ-3b_S66_L001_R1_001 kept around 93% of their original sequence. All samples maintained a high percentage survival which indicated that all sequences successfully ran (Table 5).
 
-Successful sequences were 3A, 2B, and 3B. The other sequences had failed to run code (showing 'NNNN only) or had too much noise (2A). The data was then trimmed and sequenced to be ready for alignment with the outgroup *Thermus aquaticus* strain YT-1 16 S. Any ambiguity was manually corrected following [the IUPAC ambiguity code](https://droog.gs.washington.edu/parc/images/iupac.html).
-
-
-## Table for each of my successful Sanger Sequences after BLAST 
-
-| Sample | Description                             | Percent Identity | Query Cover | Ascension  | E Value |
-|--------|-----------------------------------------|------------------|-------------|------------|---------|
-| 1A     | Sequence Failed                         |                  |             |            |         |
-| 2A     | Sequence Failed                         |                  |             |            |         |
-| 3A     | *Moraxella osloensis* strain PK2-16.2   | 98.65%           | 99%         | MN428170.1 | 0.0     |
-| 1B     | Sequence Failed                         |                  |             |            |         |
-| 2B     | *Staphylococcus warneri* strain SR5-28 | 99.61%           | 100%        | MN421516.1 | 0.0     |
-| 3B     | *Acinetobacter sp.* strain GR14 16S     | 100%             | 100%        | MH883927.1 | 1e-139  |
-
-**Table 3:** Table of successful Sanger Sequences after NCBI BLAST Results. This table indicates the BLAST result metrics which include description, percent identity, query cover, ascension and E value. 
-
-All results from the table were taken from running BLAST through NCBI GenBank (Table 3). Each successful sequence had a high percent identity with its match found. 3A was matched with the *Moraxella osloensis* strain, 2B with the *Staphylococcus warneri* strain, and finally 3B had the *Acinetobacter* strain. Other strains had failed to sequence therefore not coming with any matches. 
-
-## Phylogenies 
-
-Following successful sequencing, my sequences were then aligned for proper phylogenetic analysis using Geneious Prime. My phylogenetic trees represent the relatedness between my sequences and the outgroup, *Thermus aquaticus*. Phylogenies allow for easier identification of the bacteria found on my samples. Two phylogenetic trees were created using different methods of construction, PhyML and Mr. Bayes. 
-
-### PhyML Phylogenetic Tree
-
-![PhyML Phylogenetic tree run on Geneious Prime from Sanger Sequences.](output/phylogenies/Sanger_Sequence_PHYML_Phylogeny.png)
-
-**Figure 5:** PhyML Phylogenetic tree run on Geneious Prime from Sanger Sequencing Data. Sequences that ran are 3A, 2B, and 3B with an outgroup of *Thermus aquaticus* Strain YT-1 16 S.
-
-### Mr. Bayes Phylogenetic tree
-
-![Mr. Bayes Phylogenetic tree run on Geneious Prime from Sanger Sequences.](output/phylogenies/Sanger_Sequence_MrBayes_Phylogeny.png)
-
-**Figure 6:** Mr. Bayes Phylogenetic tree run on Geneious Primer from Sanger Sequencing Data. Sequences that ran are 3A, 2B, and 3B with an outgroup of *Thermus aquaticus* Strain YT-1 16 S.
-
-The PhyML Tree used the parameters of substitution model of GTR with a value of 100 Bootstraps. Mr. Bayes ran also under GTR, a rate variation of invgamma, a chain length of 1,100,000, a subsampling freq of 200, and a burn-in length of 100,000. Phylogenetic differences between the two trees are based on the placement of 2b in relation to the related 3A and 3B and the outgroup. I found that both trees strongly associate 3A and 3B together with PhyML tree's bootstrap value of 100 and Mr. Bayes is about 0.999 (Figure 5, 5, ML bootstrap 100 ~= Bayes 0.999). While PhyML associates 2B more closely related to 3A and 3B, Mr. Bayes places 2B alongside the outgroup.  
-
-## FastQC Report
-
-|       File Name       | Sequences Flagged as Poor Quality | Sequence Length | %GC |
-|:---------------------:|:---------------------------------:|:---------------:|:---:|
-| AJ-1a_S61_L001_R1_001 |                 0                 |     147-151     | 52% |
-| AJ-1b_S64_L001_R1_001 |                 0                 |     147-151     | 52% |
-| AJ-2a_S62_L001_R1_001 |                 0                 |      41-151     | 53% |
-| AJ-2b_S65_L001_R1_001 |                 0                 |     146-151     | 52% |
-| AJ-3a_S63_L001_R1_001 |                 0                 |      42-151     | 53% |
-| AJ-3b_S66_L001_R1_001 |                 0                 |      41-151     | 53% |
-
-**Table 4:** Table of the data taken from FastQC reports. Data showcased any sequences flagged as poor quality (failure to run), sequence length, and %GC (Count(G + C)/Count(A + T + G + C) * 100%.). 1A (Nursing Student) had a sample file name of AJ-1a_S61_L001_R1_001, 1B: AJ-1b_S64_L001_R1_001 (Regular Student), 2A (Nursing Student): AJ-2a_S62_L001_R1_001, 2B: AJ-2b_S65_L001_R1_001 (Regular Student), 3A (Nursing Student): AJ-3a_S63_L001_R1_001, and 3B: AJ-3b_S66_L001_R1_001 (Regular Student). 
-
-When looking at FastQC Reports, it is important to look at the Quality Control of the file, also known as the level of quality of the Illumina Sequences ran. Each of my sequences were not flagged for poor quality and was regarded as a successful run. I also looked at Sequence Length as an indicator of the length of the shortest and longest sequence within the set. AJ-1a_S61_L001_R1_001 and AJ-1b_S64_L001_R1_001 both had the same Sequence Length of 147-151 while AJ-2a_S62_L001_R1_001 and AJ-3b_S66_L001_R1_001 also had the same length of 41-151. AJ-2b_S65_L001_R1_001 and AJ-3a_S63_L001_R1_001 had sequence lengths that were one off from the first two groups respectively. I also looked at %GC which indicates the overall %GC of all bases in all sequences. This is reported as all counted G and C base pairs over total count of all possible base pairs (Count(G + C)/Count(A + T + G + C) * 100%.).Sequences AJ-1a_S61_L001_R1_001, AJ-1b_S64_L001_R1_001, and AJ-2b_S65_L001_R1_001 had a %GC of 52% while the rest of the sequences had 53%. All %GC were within the range to have all the sequences be regarded as quality sequences. 
-
-## Trimmmomatic Data
-
-|       Sample ID       | Before Trimming | After Trimming | Percentage Survived |
-|:---------------------:|:---------------:|:--------------:|:-------------------:|
-| AJ-1a_S61_L001_R1_001 |       8428      |      7891      |        93.62%       |
-| AJ-1b_S64_L001_R1_001 |      11693      |      11129     |        95.18%       |
-| AJ-2a_S62_L001_R1_001 |       7788      |      7310      |        93.86%       |
-| AJ-2b_S65_L001_R1_001 |      15715      |      14989     |        95.38%       |
-| AJ-3a_S63_L001_R1_001 |      14939      |      14245     |        95.35%       |
-| AJ-3b_S66_L001_R1_001 |      13216      |      12393     |        93.77%       |
-
-**Table 5:** Table showcasing sequence number of each sample ran (percentage survived = after trimming /before trimming). 
-
-Trimmomatic was done on the terminal line to trim down the sample sequences. 'Before Trimming' data was taken from the FastQC reports under 'Total Sequences' for each sample. Total sequences is a count of the total number of sequences processed. 'After Trimming' data was taken from the command line using the grep-c function within my illumina sequence data. Percentage survived average these two data sets. Samples AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001 were able to keep around 95% of the original sequences. While samples AJ-1a_S61_L001_R1_001, AJ-2a_S62_L001_R1_001, and AJ-3b_S66_L001_R1_001 kept around 93% of their original sequence. All samples maintained a high percentage survival which indicated that all sequences successfully ran. 
-
-## Command-line BLAST Analysis
-
-![Final BLAST result for Illumina Sequences](data/images/Illumina_BLAST_result/Illumina-Sequences-BLAST-Summary.png)
-
-**Figure 7:** Image showcasing final BLAST result from fasta Illumina sequence sample files on the command-line Terminal. All sequences are highlighted in red or indicated via the arrow. Each sequence had BLASTed for 10 different bacteria types with 1 of each bacteria listed below each line (n=6 sequences, 60 different bacteria listed ). 
-
-All Illumina Sequences for the samples successfully ran and were able to be processed for BLAST sequencing. The result of this BLAST showed 10 different bacteria types for each of my Illumina sequences. As each of the samples equally had same amount of sequences for each taxa of bacteria for each set of 10, trends were analyzed between each sample. All sequences except for AJ-2b_S65_L001_R1_001 had tested for a type of *Acinetobacter*. While all of the samples had a BLAST result of a certain type of *Bacillus* or *Bacillaceae* were present in their sequences. The genus *Bacterium* was only present in AJ-1a_S61_L001_R1_001 and AJ-3b_S66_L001_R1_001. *Actinomyces* or *actinmyocete* were present in AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001. AJ-1a_S61_L001_R1_001 had the unique bacteria of *Alloprevotella sp A1798* and *Brevundimos nasdae*. Other sequences with unique bacteria were AJ-1b_S64_L001_R1_001 with *Alloprevotella sp. A1789* and *Anaeroglobus sp. 54-A15* and  AJ-3a_S63_L001_R1_001 with *Anaerobic bacterium EtOH8*. 
-
-## Phylum Abundance
-
-```{r}
-# create a plot showcasing abundance of different phlyum
-# compares two sampled groups and controls
-load("output/phyloseq_obj.Rda")
-plot_bar(phyloseq_obj,
-         x = "type",
-         fill = "Phylum")
-```
-
-**Figure 8:** Plot bar comparing the abundance of different phylum within the samples of Nursing Students and Regular Students. Positive and negative contorls are also present for comparison. 
-
-```{r}
-plot_richness(phyloseq_obj,
-              x = "type",
-              measures = c("Observed")) +
-  xlab("Type of sample") +
-  geom_boxplot() +
-  theme_bw()
-```
-
-**Figure 9:** Boxplot showing the Alpha Diversity Measure within types of samples.
-
-```{r}
-# Table summarizing base pairs 
-melted_phyloseq <- psmelt(phyloseq_obj)
-melted_phyloseq <- melted_phyloseq %>%
-  mutate_if(is.factor, as.character)
-melted_phyloseq %>%
-  group_by(student_initials, Phylum) %>%
-  summarize(sum_abundance = sum(Abundance,
-                                  na.rm = TRUE))
-```
-
-**Figure 10:** Table summarizing sequence counts for each Phylum.
-
-**Figure 11:**
-
-**Figure 12:**
-
-**Figure 13:**
+All Illumina Sequences for the samples successfully ran and were able to be processed for BLAST sequencing. The result of this BLAST showed 10 different bacteria types for each of my Illumina sequences. As each of the samples equally had same amount of sequences for each taxa of bacteria for each set of 10, trends were analyzed between each sample (Figure 7). All sequences except for AJ-2b_S65_L001_R1_001 had tested for a type of *Acinetobacter*. While all of the samples had a BLAST result of a certain type of *Bacillus* or *Bacillaceae* were present in their sequences. The genus *Bacterium* was only present in AJ-1a_S61_L001_R1_001 and AJ-3b_S66_L001_R1_001. *Actinomyces* or *actinmyocete* were present in AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001. AJ-1a_S61_L001_R1_001 had the unique bacteria of *Alloprevotella sp A1798* and *Brevundimos nasdae*. Other sequences with unique bacteria were AJ-1b_S64_L001_R1_001 with *Alloprevotella sp. A1789* and *Anaeroglobus sp. 54-A15* and  AJ-3a_S63_L001_R1_001 with *Anaerobic bacterium EtOH8*. 
 
 # Discussion 
 
@@ -392,7 +130,7 @@ melted_phyloseq %>%
 
 Mobile phones have become one of the indispensable accessories in everyday modern life [@karabay2007role]. Cell phones are taken with us everywhere even in hospital halls, laboratories, and/or intensive care units when dealing with severe illnesses [@karabay2007role]. Moreover, college students were also noted to not only take their phones everywhere, but also are exposed to the most among germs do the density of college campuses and students [@ross2015microbial]. Thus, my study attempted to analyze whether college students who do enter hospitals (such as Nursing students) have the potential at being bacterial carriers for infections due to their cell phone use. Specifically, I had sampled the phones of 6 total college students at the University of San Francisco, 3 of which were Nursing students working at the clinical site at Saint Mary's Hospital while the other 3 were just regular non-health related students. I had wanted to see whether Nursing students did sanitize their phones and take extra precautions in limiting their bacterial contact in comparison to regular college students. I hypothesized that Nursing students were required to clean their phones, thus showing less bacterial growth. 
 
-My Culture data confirmed my hypothesis statistically as there was a reported difference in the number of colonies found between the two groups (Figure 3), and in the number of morphotypes with the colonies (Figure 4). However, interestingly, I found that the bacteria found in the phones of the regular students (2B and 3B) indicated bacteria that were just as likely to be infectious than the bacteria found from the nursing student (3A). 2B showed up as the *Staphylococcus warneri* strain and 3B was the *Acinetobacter sp. strain*, while 3A had matched as the *Moraxella osloensis* strain. This contradicted previous studies which indicated that those who worked in the medical/ healthcare setting had much more resistant and dangerous bacteria found within their phones [@taher2019pathogenic]. While there was no complete indication that Nursing students had fewer bacteria than regular students, it was evident that Nursing students (Group A) had much fewer morphotypes in the colonies found in Group B. This data provided some evidence that Nursing students, at least the University of San Francisco, have much better safety precaution against high levels of bacterial growth in comparison to regular college students.  
+My Culture data confirmed my hypothesis statistically as there was a reported difference in the number of colonies found between the two groups (Figure 3). I also looked at the number of morphotypes with the colonies as colony morphotypes as a common measurement for diversity and/or isolation of the dominant species within bacterial communities [@10.1111/j.1574-6968.1998.tb12903.x] (Figure 4). For both conditions, I found that Nursing Students had less morphotypes and colony abundance in comparison to Regular Students. However, interestingly, I found that the bacteria found in the phones of the regular students (2B and 3B) indicated bacteria that were just as likely to be infectious than the bacteria found from the nursing student (3A). 2B showed up as the *Staphylococcus warneri* strain and 3B was the *Acinetobacter sp. strain*, while 3A had matched as the *Moraxella osloensis* strain. This contradicted previous studies which indicated that those who worked in the medical/ healthcare setting had much more resistant and dangerous bacteria found within their phones [@taher2019pathogenic]. While there was no complete indication that Nursing students had fewer bacteria than regular students, it was evident that Nursing students (Group A) had much fewer morphotypes in the colonies found in Group B. This data provided some evidence that Nursing students, at least the University of San Francisco, have much better safety precaution against high levels of bacterial growth in comparison to regular college students.  
 
 My Culture Free data also confirmed the idea that each of the species identified on cell phones were just as likely to be as infectious as the other regardless of whether the cell phone belonged to a Nursing Student or Regular Student. All sequences (except for the sequence of sample 2B: AJ-2b_S65_L001_R1_001) had tested for a type of *Acinetobacter* and  all of the samples had a type of *Bacillus* or *Bacillaceae*. These species are common for types of bacterium and can be a harmful pathogen for infectious diseases depending on the specific taxa. One interesting result from almost all samples testing for *Acinetobacter*, is that *Acinetobacter* are gram-negative organisms that can cause infections in any organ system often found within hospitalized patients and the fact that it was also present in all of the Regular Students indicated that the level of how harmful/ infectious the pathogen present on a cell phone did not differ on whether the cell phone user was exposed to the hospital setting as a Nursing student or a Regular student [-@kuo]. The species of *Bacillus* also has a clinical spectrum of infections which include things like food poisoning, localized infections related to trauma, deep seated soft tissue infections, and systemic infections [@weber1988vitro]. Thus, a majority of my Culture Free data contradicted my original idea that Regular Students would have more harmful bacteria due to their lack of sanitation, but instead shows that regardless of group type (A: Nursing students, B: Regular students) all samples tested for similar bacterial types.  
 
@@ -427,6 +165,242 @@ Key data points that may have resulted in a lack of successful sequencing could 
 Other evidence of experimental failure could be due to cross-contamination, whether it be from extracting too much TSA when scraping the culture from the culture plates or by not being extra cautious when using pipette tips and handling other tools. As my Qubit data showed high numbers in the correct range, there is also the possibility that the bacteria that are found on the phones are resistant to PCR, air, water-- indicating that there is a lot of versatility in bacteria that my protocol could not account for. If that is the case, PCR could be redone at high temperatures to ensure complete denaturing of the DNA strands and longer cycles for higher amplification.
 
 Any other error in data from my Culture Free samples would be due to machine error. This can be attributed to any errors within command line (such as improper git pushes and cloning) or simple program errors from R Markdown or any other terminal commands. Other issues can be due to poor server connection when attempting to access the Tule sever within the University of San Francisco Network. 
+
+# Tables and Figures 
+
+```{r load-libraries}
+# Library of all installed packages to run data
+library("ggplot2")
+library("dplyr")
+library("tidyr")
+library("readr")
+library("broom")
+library("knitr")
+library("citr")
+library("lintr")
+library("dada2")
+library("phyloseq")
+```
+
+## Table of Quibit Data 
+
+|   Sample Group  | Sample ID  | Dilution | Qubit Concentration (ng/ml) |  Sample Type |
+|:---------------:|:----------:|:--------:|:---------------------------:|:------------:|
+| Nursing Student |     1a     |    100   |             5.13            |    Culture   |
+| Nursing Student |     2a     |    100   |             8.09            |    Culture   |
+| Nursing Student |     3a     |    100   |             9.75            |    Culture   |
+| Regular Student |     1b     |     1    |             7.08            |    Culture   |
+| Regular Student |     2b     |     1    |             7.4             |    Culture   |
+| Regular Student |     3b     |     1    |             10.8            |    Culture   |
+| Nursing Student |     1a     |     1    |             6.05            | Culture Free |
+| Nursing Student |     2a     |     1    |             5.52            | Culture Free |
+| Nursing Student |     3a     |     1    |             4.82            | Culture Free |
+| Regular Student |     1b     |     1    |             5.91            | Culture Free |
+| Regular Student |     2b     |     1    |             5.23            | Culture Free |
+| Regular Student |     3b     |     1    |             4.34            | Culture Free |
+
+**Table 1:** Table of all Qubit values for each sample. Sample types are separated between Culture data (for Sanger) and Culture Free data (for Illumina). Qubit concentration shows the nanogram of DNA is present with every ml of Qubit solution.
+
+## Gel Electrophoresis Image 
+
+### Image for Culture Data 
+
+![Gel Electrophoresis for Culture Data taken on September 11, 2019](data/images/gel_images/2019-09-18_Culture_PCRs_BIOL422_Zimmerman_.jpg)
+
+**Figure 1:** Image of Gel Electrophoresis for Culture Data. PCR bands corresponding from samples 1A, 2A, 3A, 1B, 2B, 3B, and control (left to right) are shown within the red box highlighted. A ladder is shown (furthest to the left) for comparison.
+
+### Image for Culture Free Data
+
+![Gel Electrophoresis for Culture Free Data taken on September 25, 2019](data/images/gel_images/2019-09-25_Culture_free_PCRs_BIOL422_Zimmerman.jpg)
+
+**Figure 2:** Image of Gel Electrophoresis for Culture Free Data. Each PCR bands corresponds to the samples 1A, 2A, 3A, 1B, 2B, 3B, and control (left to right) are shown within the red box highlighted. A ladder is also present (furthest to the left) for comparison.
+
+## Culture Data
+
+```{r read-in-culture-data}
+# read in the culture data from csv
+culture_data <- read.csv(
+  "data/raw_data/raw_culture_count_data/BIOL422_culturing_data.csv")
+```
+
+### Culture Data Colony 100x Box Plot 
+
+```{r filter-and-plot-abundances}
+# filter out only my 100x dilutions and make a boxplot
+culture_data %>%
+  filter(student_name == "Angela_Jocson") %>%
+  filter(dilution_1_10_or_100 == "1") %>%
+  ggplot(aes(x = sample_group,
+             y = as.numeric(number_of_colonies))) +
+  geom_boxplot() +
+  ggtitle("Comparison of colony abundances
+          between Nursing Students and Regular Students", "1x dilution") +
+  xlab("Sample Group") +
+  ylab("Number of Colonies")
+```
+
+**Figure 3:** Boxplot of colony abundances at different sites, 1x dilution. The higher median number, and total number, of colonies from Regular Students versus Nursing Students was statistically significantly between the two sites (Wilcox p = 0.03650, rejec the null hypothesis). 
+
+```{r abundances-stats}
+# run a statistical test to compare the two groups of abundances
+## if p value is greater than 0.05 then fail to
+## reject null hypothesis that they are equal
+
+culture_data %>%
+  filter(student_name == "Angela_Jocson") %>%
+  filter(dilution_1_10_or_100 == "1") %>%
+  wilcox.test(data = .,
+              as.numeric(number_of_colonies) ~ sample_group) %>%
+  broom::glance(x = .) %>%
+  knitr::kable()
+```
+## Culture Data Morphotype 100x Box Plot 
+
+```{r filter-and-plot-morphotypes}
+# filter out only my 100x dilutions and make a boxplot
+culture_data %>%
+  filter(student_name == "Angela_Jocson") %>%
+  filter(dilution_1_10_or_100 == "1") %>%
+  ggplot(aes(x = sample_group,
+             y = as.numeric(number_of_morphotypes))) +
+  geom_boxplot() +
+  ggtitle("Comparison of morphotypes between Nursing Students
+          and Regular Students",
+                "1x dilution") +
+  xlab("Sample Group") +
+  ylab("Number of Morphotypes")
+```
+
+**Figure 4:** Boxplot showing the number of morphotypes from the two different sites. Nursing students morphotypes averaged >5, while Regular students had an average of ~7 morphotypes. There was a difference in the mean number of morphotypes (Wilcox p = 0.05, reject the null hypothesis).
+
+```{r morphotype-stats}
+# run a statistical test to compare the two groups of abundances
+culture_data %>%
+  filter(student_name == "Angela_Jocson") %>%
+  filter(dilution_1_10_or_100 == "1") %>%
+  wilcox.test(data = .,
+              as.numeric(number_of_morphotypes) ~ sample_group) %>%
+  broom::glance(x = .) %>%
+  knitr::kable()
+```
+
+## Sequencing 
+
+## Table for each of my sequences 
+
+| Sample ID | Original File Name     | Corrected File name                    | Usability | Length after Trimming | Manually Adjusted Bases |
+|-----------|------------------------|----------------------------------------|-----------|-----------------------|-------------------------|
+| 1A        | 1a_100x_AJ_27f_A10.ab1 | 1a_100x_AJ_27f_A10_AJ_Failed.ab1       | No        | N/A                   | N/A                     |
+| 2A        | 2a_100x_AJ_27f_B10.ab1 | 2a_100x_AJ_27f_B10_AJ_Failed_Blast.ab1 | No        | N/A                   | N/A                     |
+| 3A        | 3a_100x_AJ_27f_C10.ab1 | 2b_1x_AJ_27f_E10_AJ Cleaned.ab1        | Yes       | 520                   | 2                       |
+| 1B        | 1b_1x_AJ_27f_D10.ab1   | 1b_1x_AJ_27f_D10_AJ_Failed.ab1         | No        | N/A                   | N/A                     |
+| 2B        | 2b_1x_AJ_27f_E10.ab1   | 2b_1x_AJ_27f_E10_AJ Cleaned.ab1        | Yes       | 518                   | 8                       |
+| 3B        | 3b_1x_AJ_27f_F10.ab1   | 3b_1x_AJ_27f_F10_AJ_Cleaned.ab1        | Yes       | 496                   | 2                       |
+
+**Table 2:** Table showing the locus of each sequence (16S), original file name of each sequence, the file name after correcting or marking as failed, its usability (usable vs unusable), length after trimming, and number of manually corrected in the remaining sequence after trimming.
+
+## Table for each of my successful Sanger Sequences after BLAST 
+
+| Sample | Description                             | Percent Identity | Query Cover | Ascension  | E Value |
+|--------|-----------------------------------------|------------------|-------------|------------|---------|
+| 1A     | Sequence Failed                         |                  |             |            |         |
+| 2A     | Sequence Failed                         |                  |             |            |         |
+| 3A     | *Moraxella osloensis* strain PK2-16.2   | 98.65%           | 99%         | MN428170.1 | 0.0     |
+| 1B     | Sequence Failed                         |                  |             |            |         |
+| 2B     | *Staphylococcus warneri* strain SR5-28 | 99.61%           | 100%        | MN421516.1 | 0.0     |
+| 3B     | *Acinetobacter sp.* strain GR14 16S     | 100%             | 100%        | MH883927.1 | 1e-139  |
+
+**Table 3:** Table of successful Sanger Sequences after NCBI BLAST Results. This table indicates the BLAST result metrics which include description, percent identity, query cover, ascension and E value. 
+
+## Phylogenies 
+
+### PhyML Phylogenetic Tree
+
+![PhyML Phylogenetic tree run on Geneious Prime from Sanger Sequences.](output/phylogenies/Sanger_Sequence_PHYML_Phylogeny.png)
+
+**Figure 5:** PhyML Phylogenetic tree run on Geneious Prime from Sanger Sequencing Data. Sequences that ran are 3A, 2B, and 3B with an outgroup of *Thermus aquaticus* strain YT-1 16 S.
+
+### Mr. Bayes Phylogenetic tree
+
+![Mr. Bayes Phylogenetic tree run on Geneious Prime from Sanger Sequences.](output/phylogenies/Sanger_Sequence_MrBayes_Phylogeny.png)
+
+**Figure 6:** Mr. Bayes Phylogenetic tree run on Geneious Primer from Sanger Sequencing Data. Sequences that ran are 3A, 2B, and 3B with an outgroup of *Thermus aquaticus* Strain YT-1 16 S.
+
+## FastQC Report
+
+|       File Name       | Sequences Flagged as Poor Quality | Sequence Length | %GC |
+|:---------------------:|:---------------------------------:|:---------------:|:---:|
+| AJ-1a_S61_L001_R1_001 |                 0                 |     147-151     | 52% |
+| AJ-1b_S64_L001_R1_001 |                 0                 |     147-151     | 52% |
+| AJ-2a_S62_L001_R1_001 |                 0                 |      41-151     | 53% |
+| AJ-2b_S65_L001_R1_001 |                 0                 |     146-151     | 52% |
+| AJ-3a_S63_L001_R1_001 |                 0                 |      42-151     | 53% |
+| AJ-3b_S66_L001_R1_001 |                 0                 |      41-151     | 53% |
+
+**Table 4:** Table of the data taken from FastQC reports. Data showcased any sequences flagged as poor quality (failure to run), sequence length, and %GC (Count(G + C)/Count(A + T + G + C) * 100%.). 1A (Nursing Student) had a sample file name of AJ-1a_S61_L001_R1_001, 1B: AJ-1b_S64_L001_R1_001 (Regular Student), 2A (Nursing Student): AJ-2a_S62_L001_R1_001, 2B: AJ-2b_S65_L001_R1_001 (Regular Student), 3A (Nursing Student): AJ-3a_S63_L001_R1_001, and 3B: AJ-3b_S66_L001_R1_001 (Regular Student). 
+
+
+## Trimmmomatic Data
+
+|       Sample ID       | Before Trimming | After Trimming | Percentage Survived |
+|:---------------------:|:---------------:|:--------------:|:-------------------:|
+| AJ-1a_S61_L001_R1_001 |       8428      |      7891      |        93.62%       |
+| AJ-1b_S64_L001_R1_001 |      11693      |      11129     |        95.18%       |
+| AJ-2a_S62_L001_R1_001 |       7788      |      7310      |        93.86%       |
+| AJ-2b_S65_L001_R1_001 |      15715      |      14989     |        95.38%       |
+| AJ-3a_S63_L001_R1_001 |      14939      |      14245     |        95.35%       |
+| AJ-3b_S66_L001_R1_001 |      13216      |      12393     |        93.77%       |
+
+**Table 5:** Table showcasing sequence number of each sample ran (percentage survived = after trimming /before trimming). 
+
+## Command-line BLAST Analysis
+
+![Final BLAST result for Illumina Sequences](data/images/Illumina_BLAST_result/Illumina-Sequences-BLAST-Summary.png)
+
+**Figure 7:** Image showcasing final BLAST result from fasta Illumina sequence sample files on the command-line Terminal. All sequences are highlighted in red or indicated via the arrow. Each sequence had BLASTed for 10 different bacteria types with 1 of each bacteria listed below each line (n=6 sequences, 60 different bacteria listed ). 
+
+## Phylum Abundance
+
+```{r}
+# create a plot showcasing abundance of different phlyum
+# compares two sampled groups and controls
+load("output/phyloseq_obj.Rda")
+plot_bar(phyloseq_obj,
+         x = "type",
+         fill = "Phylum")
+```
+
+**Figure 8:** Plot bar comparing the abundance of different phylum within the samples of Nursing Students and Regular Students. Positive and negative contorls are also present for comparison. 
+
+```{r}
+plot_richness(phyloseq_obj,
+              x = "type",
+              measures = c("Observed")) +
+  xlab("Type of sample") +
+  geom_boxplot() +
+  theme_bw()
+```
+
+**Figure 9:** Boxplot showing the Alpha Diversity Measure within types of samples.
+
+```{r}
+# Table summarizing base pairs
+melted_phyloseq <- psmelt(phyloseq_obj)
+melted_phyloseq <- melted_phyloseq %>%
+  mutate_if(is.factor, as.character)
+melted_phyloseq %>%
+  group_by(student_initials, Phylum) %>%
+  summarize(sum_abundance = sum(Abundance,
+                                  na.rm = TRUE))
+```
+
+**Figure 10:** Table summarizing sequence counts for each Phylum.
+
+**Figure 11:**
+
+**Figure 12:**
+
+**Figure 13:**
 
 # Sources Cited
 
