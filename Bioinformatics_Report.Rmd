@@ -46,53 +46,36 @@ I sampled 6 total students at the University of San Francisco, 3 Nursing student
 # Methods
 
 ## Sampling Plan 
+
 In order to confirm the necessary cell phone sanitizing routine when working in hospitals/ medical professional settings, I sampled this group of Nursing students directly after they come back from working at their clinical site at Saint Mary's Hospital at 1:30 pm, Tuesday, September 3. I tried to avoid students cleaning their phones solely because of their knowledge of being tested and gained each student's consent to swab their phones during the time and site of collection. After swabbing the health professionals, I planned on swabbing the phones of regular students who use their phones freely around the same time (2:10 pm) to avoid bacterial differences due to different samples using their phones for longer further in the day. Thus, I sampled the second group of students on Tuesday, September 3 as well on the University of San Francisco Campus. 
 
 ## Sample Collection 
 
-For the collection of my samples, I had previously prepared a kit to meet the students at their easiest convenience. This kit contained 2 pairs of gloves (one for each sample group/ collection time), 6 sterile swabbing kit consisting of two swabs per pack, 6 sterile tubes with Phosphate buffer saline (pH 7.4) to preserve the swabs. 
+For the collection of my samples, I had previously prepared a kit to meet the students at their easiest convenience. This kit contained 2 pairs of gloves (one for each sample group/ collection time), 6 sterile swabbing kit consisting of two swabs per pack, 6 sterile tubes with Phosphate buffer saline (pH 7.4) to preserve the swabs. Each phone from every student required two swabs (n = 6, 12 samples total) which were broken off and placed into the labeled test tube. 
 
-Each phone from every student (6 total) required two swabs (n = 2, 12 samples total) which were broken off and placed into the labeled test tube. 
-
-The collection sample groups were separated and assigned into two groups: group A and group B. Group A referred to the group that was current USF nursing students working at St. Mary's Hospital and Group B were non-health related students who did not have a hospital background. Each student was given an ID label for either group A and B and a sample number was given randomly passed on collection order (1A, 2A, 3A, 1B, 2B, 3B). 
-
-After two swab samples had been taken from each student, one sample went to freeze for later DNA extraction while the other sample was set up for dilution and culture plating. 
+The collection sample groups were separated and assigned into two groups: group A and group B. Group A referred to the group that was current USF nursing students working at St. Mary's Hospital and Group B were non-health related students who did not have a hospital background. Each student was given an ID label for either group A and B and a sample number was given randomly passed on collection order (1A, 2A, 3A, 1B, 2B, 3B). After two swab samples had been taken from each student, one sample went to freeze for later DNA extraction while the other sample was set up for dilution and culture plating. 
 
 ### Sample Preparation for Culturing 
 
-Once one sample had been sent away to freeze for DNA extraction, the other sample was mixed with 200 ul of PBS (7.4 pH). 
-
-From this sample, two more tubes were prepped and labeled for a 10x dilution and 100x dilution (n = 3 per student, 18 total). For the 10x dilution, the test tube was given 180 ul of PBS plus 20 ul of the original sample. The 100x dilution was given 180 ul of PBS and 20 ul from the 10x dilution. 
-
-I labeled and used 18 100mm Petri dish culture plates (with TSA, tryptic soy agar, as growth media) to set up bacterial culturing (n = 3 per group, 6 total). 100 ul was then taken from each sample and spread evenly with 8-10 Rattler beads (Spreader beads) around the bottom of the plate for about 10-20 seconds. 
-
-These culture plates were then left to incubate for 37 degrees Celsius overnight with an expected 1 culture growth per plate. 
+I froze one of my sample for DNA extraction and mixed the other sample with 200 ul of PBS (7.4 pH). From this sample, two more tubes were prepped and labeled for a 10x dilution and 100x dilution (n = 3 per student, 18 total). I labeled 18 100mm Petri dish culture plates (with TSA, tryptic soy agar, as growth media) to set up bacterial culturing (n = 3 per group, 6 total). 100 ul was then taken from each sample and spread evenly with 8-10 Rattler beads (Spreader beads). These culture plates were then left to incubate for 37 degrees C overnight. 
 
 #### Culture Measurement
 
-The following day (September 4, 2019) I measured each culture plate [for growth of colonies and monophytes.](http://https://docs.google.com/spreadsheets/d/1GTZFUkE8nhY6hZebgxoPr_dam9kGWzlqFg1O4--MyUE/edit#gid=0). 
+The following day, I measured each culture plate [for growth of colonies and monophytes.](http://https://docs.google.com/spreadsheets/d/1GTZFUkE8nhY6hZebgxoPr_dam9kGWzlqFg1O4--MyUE/edit#gid=0). 
 
-Each sample was incubated at 37 degrees Celsius and recounted 5 days after on September 9, 2019. For group A: 1A (1 colony, 1 morphotype), 2A (5 colonies, 4 morphotypes), and 3A (2 colonies, 2 morphotypes) all had the highest growth in their 100x dilution while group B: 1B (1 colony, 1 morphotype), 2B (21 colonies, 9 morphotypes), 3B all exhibited most growth at their 1x dilution (70 colonies, 4 morphotypes). 
+Each sample was incubated at 37 degrees Celsius and recounted 5 days after. 
 
 ## DNA Extraction Protocol 
 
 ### Culture DNA Extraction
-The selected culture plates with the most colonies were given for extraction (September 10, 2019). With a 1.5 ml tube and a sterile pipette tip, cells from one colony from each plate were collected (6 total). 
 
-For DNA Extraction, I followed the Sigma Plant RED Extract-N-AMP PCR Kit [@amplicon201316s]. 
-
-In each 1.5 ml tube, 100 ul of Extraction Solution was added. Afterward, each tube was then incubated for 10 minutes at 95 degrees Celsius. 100 ul of Dilution Solution was added to each tube and centrifuged for 5 minutes at full speed.
-
-Once each sample was done (6 total), they were then set up for Qubit protocol. I used a Qubit Fluorometric Quantification to quantify the amount of DNA was present in each prepped tube (ng/ul). Each cultured sample was recorded for their amount of Quibit data (1A: 5.13 ng/ul, 2A: 8.09 ng/ ul, 3A: 9.75 ng/ul, 1B: 7.08 ng/ul, 2B: 7.4 ng/ul, 3B: 10.8 ng/ul).
+I selected my culture plates with the most colonies for extraction. With a 1.5 ml tube and a sterile pipette tip, I  collected cells from one colony from each plate (n = 6). For DNA Extraction, each of my amplifications were prepped following the Sigma Plant RED Extract-N-AMP PCR Kit [@amplicon201316s]. Once each sample was done, they were then set up for Qubit protocol. I used Qubit Fluorometric Quantification to quantify the amount of DNA was present in each prepped tube (ng/ul).
 
 ### Culture Free DNA Extraction
-The original frozen sample that was set aside during sample collection (September 3, 2019) was redistributed and prepped for DNA Extraction (September 11, 2019, 6 samples total)
 
-This protocol also used the Sigma Plant RED Extract-N-AMP PCR Kit [@amplicon201316s]. 
+The original frozen sample that was set aside during sample collection was redistributed and prepped for DNA Extraction (n = 6).
 
-Each sample was thawed and 100 ul of Extraction was added. The samples were then incubated for 10 minutes at 95 degrees Celsius. After, 100 ul of Dilution Solution was added and centrifuged for 5 minutes. 
-
-Once finished, these samples followed the Qubit extraction (6 total). I used a Qubit Fluorometric Quantification and each cultured sample was recorded for their amount of Qubit data (1A: 6.05 ng/ul, 2A: 5.52 ng/ ul, 3A: 4.83 ng/ul, 1B: 5.91 ng/ul, 2B: 5.23 ng/ul, 3B: 4.34 ng/ul).
+I also followed the Sigma Plant RED Extract-N-AMP PCR Kit for preparation of my amplifications [@amplicon201316s]. Once finished, these samples followed the Qubit extraction (6 total). I used Qubit Fluorometric Quantification to quantify concentration of extraction.
 
 I recorded all data [with dilution id, concentration, and whether it was the culture or culture-free extraction.](https://docs.google.com/spreadsheets/d/19dQy8kxYwU4dCJ-AuaFwOA8AL4E97rX6VH8wT3gvDuc/edit#gid=0).
 
@@ -100,39 +83,21 @@ I recorded all data [with dilution id, concentration, and whether it was the cul
 
 ### PCR for Culture (+ Sanger)
 
-On September 17, 2019, I set up a Touchdown PCR protocol for the cultured samples (6 total).
+I set up a Touchdown PCR for the cultured samples (n = 6). Including my negative control, I had a total of 7 samples for PCR. The volumes for my PCR mix were, per sample (n = 7) 10 ul of AMP, 0.8 ul of 27 F primer, 0.8 of 1492 R primer, 1 ul of BSA, 6.4 ul of H2O and 1 ul of Template DNA or 1 ul of water for the control. 17 ul of my master mix was added to each PCR tube (7 total), although the original protocol called for 19 ul, I ended up not having enough mix.
 
-Including my control, I had a total of 7 samples for PCR. This calculated volumes  for my PCR mix followed (per one sample, n = 7 samples) 10 ul of AMP, 0.8 ul of 27 F primer, 0.8 of 1492 R primer, 1 ul of BSA, 6.4 ul of H2O and 1 ul of Template DNA or 1 ul of water for the control. 
-
-17 ul of my master mix was added to each PCR tube (7 total) (although the original protocol called for 19 ul, I ended up not having enough mix.
-
-The PCR Cycle started with the denaturing at a high temperature with PCR Conditioning starting from step one of 95 degrees C for 5 minutes, then 94 degrees C for 30 seconds, 65 degrees C for 30 seconds, and finally 72 degrees C for 1 minute. This went on for 10 cycles and each step going down 1 degree per cycle to ensure copies. 
-
-PCR followed 25 more cycles of 94 degrees C for 30 seconds, 55 degrees C for 30 seconds, 72 degrees C for 1 minute. Finally, 72 degrees C for 10 minutes, and 4 degrees C of holding. 
-
-This resulted in a total number of 35 cycles. 
+The PCR Cycle followed 95 degrees C for 5 minutes, 94 degrees C for 30 seconds, 65 degrees C for 30 seconds, and 72 degrees C for 1 minute. This went on for 10 cycles and each step going down 1 degree per cycle to ensure copies. PCR followed 25 more cycles of 94 degrees C for 30 seconds, 55 degrees C for 30 seconds, 72 degrees C for 1 minute. Finally, 72 degrees C for 10 minutes, and 4 degrees C of holding. 
 
 #### Gel Electrophoresis 
 
-Following PCR, gel electrophoresis was used running on 2 percent Agarose gel with SYBR Safe Dye added to it. 4 ul of each sample was pipetted onto the gel and ran under 140V for 30 minutes. 
-
-I photographed the final product of gel electrophoresis and noted band intensity and successful amplification.  
+Following PCR, I performed gel electrophoresis on 2 percent agarose gel with SYBR Safe Dye added to it. 4 ul of each sample was pipetted onto the gel and ran under 140V for 30 minutes. 
 
 #### Exo-SAP 
 
-On September 23, 2019, after successful amplification for gel electrophoresis, PCR products were cleaned with ExoSAP (Invitrogen) and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA). This was meant to digest the samples for a better Sanger Sequencing template. 
+After successful amplification for gel electrophoresis, PCR products were cleaned with ExoSAP (Invitrogen) and sent for unidirectional Sanger sequencing at MCLAB (South San Francisco, CA). This was meant to digest the samples for a better Sanger Sequencing template. 
 
 ### PCR of Culture Free Data (+ Illumina)
 
-Following gel electrophoresis, PCR products were purified using AmpureXP magnetic beads (Beckman-Coulter) and quantified using a PicoGreen fluorescent assay (Invitrogen) on a Tecan Infinite M Plex plate reader (September 23, 2019). 
-
-My master mix followed contained 10 ul of AMP, 0.8 ul of 10 uM Iseq 165 F, 0.8 ul of 10 uM Iseq 165 R, 10 ul of BSA, 1 ul of the template of water for the control, and 49.5 ul of H2O (per sample + control, 7 samples total).
-
-Purified PCR products were used as the template for a another round of PCR to attach the different pairs of forward and reverse Illumina barcodes (Nextera XT Index 2 kit). Other components of the PCR mixtures followed the first PCR. The PCR cycled at 95 degrees C for 3 minutes. 
-
-This went on for 25 cycles, resulting in PCR products 1,024 times smaller than the previous PCR.  
-
-The following day, the Culture Free Samples underwent another round of PCR (with 8 more cycles) for a total of 32 rounds of PCR following the cycle of: 95 degrees C for 30 s, 55 degrees C for 30s, and 72 degrees C for 30s, followed by a 5 minute elongation cycle at 72 degrees C (September 25, 2019). 
+Following gel electrophoresis, PCR products were purified using AmpureXP magnetic beads (Beckman-Coulter) and quantified using a PicoGreen fluorescent assay (Invitrogen) on a Tecan Infinite M Plex plate reader. My master mix contained 10 ul of AMP, 0.8 ul of 10 uM Iseq 165 F, 0.8 ul of 10 uM Iseq 165 R, 10 ul of BSA, 1 ul of the template of water for the control, and 49.5 ul of H2O (per sample + control, 7 samples total). Purified PCR products were used as the template for a another round of PCR to attach different pairs of forward and reverse Illumina barcodes (Nextera XT Index 2 kit). Other components of the PCR mixtures followed the first PCR. The PCR cycled at 95 degrees C for 3 minutes. Culture Free samples underwent another round of PCR (n = 8) following the cycle of: 95 degrees C for 30 s, 55 degrees C for 30s, and 72 degrees C for 30s, followed by a 5 minute elongation cycle at 72 degrees C. 
 
 #### Qubit 
 
@@ -144,23 +109,11 @@ This library was diluted to the loading concentration (50 pM) and combined with 
 
 ## Sequencing and Editing for Culture Data 
 
-After being sent out from the lab, my sequences were uploaded onto Geneious Prime V.4 2019.2.3 for editing and IUPAC Coding (7 total, including water). 
-
-Here, only my samples 3a, 2b, and 3b ran all the way three and were ready to be edited. Editing involved trimming both the beginning and end of each sequence to make sure there was not too much noise. Any sequence that showed only give base pairs was regarded as a "fail" and was edited to indicate that on their Sample ID. For my sequences that ran, "allow editing" was done on Geneious Prime to look at any areas where the DNA seemed ambiguous and using my best judgment to fill in the data using  [the IUPAC ambiguity code](https://droog.gs.washington.edu/parc/images/iupac.html). These edited files were labeled as "cleaned" next to their Sample ID and prepped for MAFFT Alignment. 
-
-Once I reached a high enough HQ% we used alignment to realign the working sequences with a sequence of DNA from my outgroup of *Thermus aquaticus* strain YT-1 16 S (downloaded from the NCBI GenBank), this was aligned using MAFFT (Multiple Alignment using Fast Fourier Transform) [@katoh2013mafft]. The realignment was trimmed at the beginning and end for each sequence to align perfectly with the outgroup. 
-
-Once aligned, I used Geneious V.4 2019.2.3 to create a PhyML Tree and Mr. Bayes to create phylogenies comparing my DNA sequences to the outgroup. PhyML was done by taking the newly realigned sequence and running it through the PhyML program. The PhyML Tree followed a substitution model of GTR with a Branch Support of Boostrap (100 Bootstraps) [@guindon2010new]. Any other selection were set to the default mode and the tree was created. I selected *Thermus aquaticus* as the root for my tree to act as the outgroup for my samples' branches. Posterior probability was measured as a support value for quantifying relatedness between the branches. 
-
-To run Mr. Bayes, my realigned sequence that I ran for PhyML was selected again. Mr. Bayes parameters had a substitution model of GTR, a rate variation of invgamma, a chain length of 1,100,000, a subsampling freq of 200, and a burn-in length of 100,000 [@suchard2006bali]. Any other category was set to default. Mr. Bayes resulted in three files which showed Mr. Bayes posterior output for estimates, tree view, and trace. 
-
-The two phylogenies were uploaded using png. 
-
-BLAST was done using NCBI BLAST rather than from the Geneious program. Each freshly cleaned sequence was copied into NCBI BLAST query sequence from Geneious Prime V.4 2019.2.3 . For each, 16S Ribosomal RNA sequences was selected from the database and ran for results.
+After being sent out from the lab, my sequences were uploaded onto Geneious Prime V.4 2019.2.3 for editing and IUPAC Coding (7 total, including water). Only my samples that ran (3a, 2b, and 3b) were edited to make sure there was not too much noise. Any sequence that showed only five base pairs were regarded as a "fail". For my sequences that ran, I corrected any ambiguous DNA base pairs and using [the IUPAC ambiguity code](https://droog.gs.washington.edu/parc/images/iupac.html). Once my samples had a high HQ%, I used MAFFT alignment to realign the working sequences to DNA from my outgroup *Thermus aquaticus* strain YT-1 16 S (downloaded from the NCBI GenBank) [@katoh2013mafft]. The realignment was trimmed at the beginning and end for each sequence to align perfectly with the outgroup. I used PhyML and Mr. Bayes to create two phylogenetic trees for my DNA sequences to the outgroup. The PhyML Tree followed a substitution model of GTR with a Branch Support of Boostrap (100 Bootstraps) [@guindon2010new]. Any other selection were set to the default mode and the tree was created. I selected *Thermus aquaticus* as the root for my tree to act as the outgroup for my samples' branches. Posterior probability was measured as a support value for quantifying relatedness between the branches. To run Mr. Bayes, my realigned sequence that I ran for PhyML was selected again. Mr. Bayes parameters had a substitution model of GTR, a rate variation of invgamma, a chain length of 1,100,000, a subsampling freq of 200, and a burn-in length of 100,000 [@suchard2006bali]. Any other category was set to default. Mr. Bayes resulted in three files which showed Mr. Bayes posterior output for estimates, tree view, and trace. BLAST was done using NCBI BLAST. Each freshly cleaned sequence was copied into NCBI BLAST query sequence from Geneious Prime V.4 2019.2.3. For each, 16S Ribosomal RNA sequences were selected from the database and ran for results.
 
 ## Sequencing and Editing for Culture Free Data
 
-All Illumina sequences were edited using the command-line from Terminal from my 'my-illumina-sequences' folder. First, sequences were counted using various script files given and unzipped as FastQC files. The sequences that returned as FastQC files were analyzed by their FastQC reports. FastQC reports provided a Quality Control report which can spot problems which originate either in the sequencer or in the starting library material. After ensuring a quality sequence from my FASTqc reports, each sequence was trimmed by Trimmomatic. Trimmomatic was run on a given script using a for-loop to edit and clean all Illumina sequences. Trimmomatic uses processing steps to trim and filter the sequences to identify adapter sequences and quality filtering [@bolger2014trimmomatic]. Again using the command-line, FastQC files were edited into fasta files for better encoding of the BLAST results. BLAST was run again using a for-loop for all Illumina sequences and all data was summarized via the cut function. All output data was stored into a separate folder. 
+All Illumina sequences were edited using the command-line from Terminal from my 'my-illumina-sequences' folder. First, sequences were counted using various script files given and unzipped as FastQC files. The sequences that returned as FastQC files were analyzed by their FastQC reports. FastQC provided a Quality Control report to spot problems that originate in the sequencer or in the library material. I identified my quality Illumina sequence and trimmed and edited them using Trimmomatic. Trimmomatic on the command line [@bolger2014trimmomatic]. FastQC files were processed into fasta files for better encoding of the BLAST results. BLAST was run on the terminal for all Illumina sequences and summarized via the cut function. 
 
 # Results
 ```{r load-libraries}
@@ -173,6 +126,8 @@ library("broom")
 library("knitr")
 library("citr")
 library("lintr")
+library("dada2")
+library("phyloseq")
 ```
 ## Qubit Data
 
@@ -193,7 +148,7 @@ Following protocol, I had collected Qubit data from all my samples to ensure DNA
 | Regular Student |     2b     |     1    |             5.23            | Culture Free |
 | Regular Student |     3b     |     1    |             4.34            | Culture Free |
 
-**Table 1:** Table of all Qubit values for each sample. Sample types are separated between Culture data (for Sanger) and Culture Free data (for Illumina). Qubit concentration shows the nanogram of DNA is present with every ml of Qubit solution.  
+**Table 1:** Table of all Qubit values for each sample. Sample types are separated between Culture data (for Sanger) and Culture Free data (for Illumina). Qubit concentration shows the nanogram of DNA is present with every ml of Qubit solution.
 
 All samples ran with a good a good Qubit value (~3-30 ng/ml), thus indicating a good amount of DNA present in my samples to be confident in preparation for DNA sequencing. 
 
@@ -210,6 +165,7 @@ Following PCR Protocol, Gel Electrophoresis was done to analyze DNA molecular si
 The final gel electrophoresis showcased strong bands are seen in samples 1A, 2B, and 3B. 2A and 3A were described as light bands but are still prominently shown. However, 1b and the control failed to run at all, producing no bands. 
 
 ### Image for Culture Free Data
+
 ![Gel Electrophoresis for Culture Free Data taken on September 25, 2019](data/images/gel_images/2019-09-25_Culture_free_PCRs_BIOL422_Zimmerman.jpg)
 
 **Figure 2:** Image of Gel Electrophoresis for Culture Free Data. Each PCR bands corresponds to the samples 1A, 2A, 3A, 1B, 2B, 3B, and control (left to right) are shown within the red box highlighted. A ladder is also present (furthest to the left) for comparison.
@@ -231,6 +187,7 @@ culture_data <- read.csv(
 From this collected data, I used a box plot to see the average and any outliers within my data. I also used a statistical test in order to determine how statistically significant my results were. This would allow me to make a confident conclusion as to how to interpret my data.
 
 ### Culture Data Colony 100x Box Plot 
+
 ```{r filter-and-plot-abundances}
 # filter out only my 100x dilutions and make a boxplot
 culture_data %>%
@@ -264,6 +221,7 @@ culture_data %>%
 I also wanted to look at the different types of morphotypes that appeared from each sample. Using a different variable other than colony abundances was important as colony morphotypes is a common measurement for diversity and/or isolation of the dominant species within bacterial communities [@10.1111/j.1574-6968.1998.tb12903.x]. Colony morphotypes can also be used to identify different species for physiological and genetic purposes [@10.1111/j.1574-6968.1998.tb12903.x]. 
 
 ## Culture Data Morphotype 100x Box Plot 
+
 ```{r filter-and-plot-morphotypes}
 # filter out only my 100x dilutions and make a boxplot
 culture_data %>%
@@ -299,6 +257,7 @@ Boxplots from culture data show that the number of colonies between the two grou
 As my samples were sent to a lab and returned as sequenced DNA files, each DNA file was analyzed as whether they had failed or ran completely. Files that ran completely were cleaned and trimmed to be adjusted. I organized my data into a table in order to properly categorize and document the edits that were made to each successful sequence. 
 
 ## Table for each of my sequences 
+
 | Sample ID | Original File Name     | Corrected File name                    | Usability | Length after Trimming | Manually Adjusted Bases |
 |-----------|------------------------|----------------------------------------|-----------|-----------------------|-------------------------|
 | 1A        | 1a_100x_AJ_27f_A10.ab1 | 1a_100x_AJ_27f_A10_AJ_Failed.ab1       | No        | N/A                   | N/A                     |
@@ -314,6 +273,7 @@ Successful sequences were 3A, 2B, and 3B. The other sequences had failed to run 
 
 
 ## Table for each of my successful Sanger Sequences after BLAST 
+
 | Sample | Description                             | Percent Identity | Query Cover | Ascension  | E Value |
 |--------|-----------------------------------------|------------------|-------------|------------|---------|
 | 1A     | Sequence Failed                         |                  |             |            |         |
@@ -332,11 +292,13 @@ All results from the table were taken from running BLAST through NCBI GenBank (T
 Following successful sequencing, my sequences were then aligned for proper phylogenetic analysis using Geneious Prime. My phylogenetic trees represent the relatedness between my sequences and the outgroup, *Thermus aquaticus*. Phylogenies allow for easier identification of the bacteria found on my samples. Two phylogenetic trees were created using different methods of construction, PhyML and Mr. Bayes. 
 
 ### PhyML Phylogenetic Tree
+
 ![PhyML Phylogenetic tree run on Geneious Prime from Sanger Sequences.](output/phylogenies/Sanger_Sequence_PHYML_Phylogeny.png)
 
 **Figure 5:** PhyML Phylogenetic tree run on Geneious Prime from Sanger Sequencing Data. Sequences that ran are 3A, 2B, and 3B with an outgroup of *Thermus aquaticus* Strain YT-1 16 S.
 
 ### Mr. Bayes Phylogenetic tree
+
 ![Mr. Bayes Phylogenetic tree run on Geneious Prime from Sanger Sequences.](output/phylogenies/Sanger_Sequence_MrBayes_Phylogeny.png)
 
 **Figure 6:** Mr. Bayes Phylogenetic tree run on Geneious Primer from Sanger Sequencing Data. Sequences that ran are 3A, 2B, and 3B with an outgroup of *Thermus aquaticus* Strain YT-1 16 S.
@@ -374,11 +336,55 @@ When looking at FastQC Reports, it is important to look at the Quality Control o
 Trimmomatic was done on the terminal line to trim down the sample sequences. 'Before Trimming' data was taken from the FastQC reports under 'Total Sequences' for each sample. Total sequences is a count of the total number of sequences processed. 'After Trimming' data was taken from the command line using the grep-c function within my illumina sequence data. Percentage survived average these two data sets. Samples AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001 were able to keep around 95% of the original sequences. While samples AJ-1a_S61_L001_R1_001, AJ-2a_S62_L001_R1_001, and AJ-3b_S66_L001_R1_001 kept around 93% of their original sequence. All samples maintained a high percentage survival which indicated that all sequences successfully ran. 
 
 ## Command-line BLAST Analysis
+
 ![Final BLAST result for Illumina Sequences](data/images/Illumina_BLAST_result/Illumina-Sequences-BLAST-Summary.png)
 
 **Figure 7:** Image showcasing final BLAST result from fasta Illumina sequence sample files on the command-line Terminal. All sequences are highlighted in red or indicated via the arrow. Each sequence had BLASTed for 10 different bacteria types with 1 of each bacteria listed below each line (n=6 sequences, 60 different bacteria listed ). 
 
 All Illumina Sequences for the samples successfully ran and were able to be processed for BLAST sequencing. The result of this BLAST showed 10 different bacteria types for each of my Illumina sequences. As each of the samples equally had same amount of sequences for each taxa of bacteria for each set of 10, trends were analyzed between each sample. All sequences except for AJ-2b_S65_L001_R1_001 had tested for a type of *Acinetobacter*. While all of the samples had a BLAST result of a certain type of *Bacillus* or *Bacillaceae* were present in their sequences. The genus *Bacterium* was only present in AJ-1a_S61_L001_R1_001 and AJ-3b_S66_L001_R1_001. *Actinomyces* or *actinmyocete* were present in AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001. AJ-1a_S61_L001_R1_001 had the unique bacteria of *Alloprevotella sp A1798* and *Brevundimos nasdae*. Other sequences with unique bacteria were AJ-1b_S64_L001_R1_001 with *Alloprevotella sp. A1789* and *Anaeroglobus sp. 54-A15* and  AJ-3a_S63_L001_R1_001 with *Anaerobic bacterium EtOH8*. 
+
+## Phylum Abundance
+
+```{r}
+# create a plot showcasing abundance of different phlyum
+# compares two sampled groups and controls
+load("output/phyloseq_obj.Rda")
+plot_bar(phyloseq_obj,
+         x = "type",
+         fill = "Phylum")
+```
+
+**Figure 8:** Plot bar comparing the abundance of different phylum within the samples of Nursing Students and Regular Students. Positive and negative contorls are also present for comparison. 
+
+```{r}
+plot_richness(phyloseq_obj,
+              x = "type",
+              measures = c("Observed")) +
+  xlab("Type of sample") +
+  geom_boxplot() +
+  theme_bw()
+```
+
+**Figure 9:** Boxplot showing the Alpha Diversity Measure within types of samples.
+
+```{r}
+# Table summarizing base pairs 
+melted_phyloseq <- psmelt(phyloseq_obj)
+melted_phyloseq <- melted_phyloseq %>%
+  mutate_if(is.factor, as.character)
+melted_phyloseq %>%
+  group_by(student_initials, Phylum) %>%
+  summarize(sum_abundance = sum(Abundance,
+                                  na.rm = TRUE))
+```
+
+**Figure 10:** Table summarizing sequence counts for each Phylum.
+
+**Figure 11:**
+
+**Figure 12:**
+
+**Figure 13:**
 
 # Discussion 
 
