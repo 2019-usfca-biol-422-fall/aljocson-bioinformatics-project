@@ -45,7 +45,7 @@ metadata_in <- metadata_in[grepl(pattern = "(AJ|control)",
 phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,
                                    taxa_are_rows = FALSE),
                          sample_data(metadata_in),
-                         tax_table(taxa)) 
+                         tax_table(taxa))
 # sample-spp matrix
 # metadata for each sample
 # taxonomy for each sequence variant
