@@ -180,6 +180,7 @@ library("citr")
 library("lintr")
 library("dada2")
 library("phyloseq")
+library("ggrepel")
 ```
 
 ## Table of Quibit Data 
@@ -430,10 +431,11 @@ melted_phyloseq %>%
              y = sum_abundance,
              fill = type)) +
   geom_col() +
-  theme(axis.text.x = element_text(angle = 45,
+  theme(axis.text.x = element_text(angle = 50,
                                    hjust = 1,
-                                   vjust = 1)) +
-  geom_text(aes(label = sum_abundance), vjust = -0.3) +
+                                   vjust = 1,
+                                   size = 4)) +
+  geom_text_repel(aes(label = sum_abundance), vjust = -1, size = 4) +
   ggtitle("Sum Abundance of phyla in Sample Groups")
 ```
 **Figure 10:** Bar plot showing the difference between the sum abundance of phyla in Samples groups: Nursing Student versus Regular Student. This does not include any negative control samples. 
