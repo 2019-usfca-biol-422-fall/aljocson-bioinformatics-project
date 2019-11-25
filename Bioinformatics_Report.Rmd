@@ -369,6 +369,8 @@ culture_data %>%
 ## Phylum Abundance
 
 ```{r melt-phyloseq}
+# Load phyloseq data
+load ("output/phyloseq_obj.Rda")
 # Create melted phyloseq into environment
 # melt phyloseq object into plot
 melted_phyloseq <- psmelt(phyloseq_obj)
