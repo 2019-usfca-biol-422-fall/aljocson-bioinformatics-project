@@ -122,7 +122,7 @@ As my samples were sent to a lab and returned from Sanger Sequencing, each DNA f
 
 After unzipping my Illumina Sequences, I looked at my fastq files' FastQC Reports to see level of quality of the Illumina Sequences ran. Each of my sequences were not flagged for poor quality and was regarded as a successful run (Table 4). AJ-1a_S61_L001_R1_001 and AJ-1b_S64_L001_R1_001 both had the same Sequence Length of 147-151 while AJ-2a_S62_L001_R1_001 and AJ-3b_S66_L001_R1_001 also had the same length of 41-151 (Table 4). AJ-2b_S65_L001_R1_001 and AJ-3a_S63_L001_R1_001 had sequence lengths that were one off from the first two groups respectively (Table 4). I looked at %GC which indicates all counted G and C base pairs over total count of all possible base pairs (Count(G + C)/Count(A + T + G + C) * 100%.). Sequences AJ-1a_S61_L001_R1_001, AJ-1b_S64_L001_R1_001, and AJ-2b_S65_L001_R1_001 had a %GC of 52% while the rest of the sequences had 53%. All %GC were within the range to have all the sequences be regarded as quality sequences (Table 4). For further quality of my sequences, I used Trimmomatic to edit my sample sequences. 'Before Trimming' data was taken from the FastQC reports under 'Total Sequences' for each sample (Table 5). Total sequences is a count of the total number of sequences processed. 'After Trimming' data was taken from the command line using the grep-c function within my illumina sequence data. Percentage survived average these two data sets. Samples AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001 were able to keep around 95% of the original sequences. While samples AJ-1a_S61_L001_R1_001, AJ-2a_S62_L001_R1_001, and AJ-3b_S66_L001_R1_001 kept around 93% of their original sequence. All samples maintained a high percentage survival which indicated that all sequences successfully ran (Table 5).
 
-All Illumina Sequences for the samples successfully ran and were able to be processed for BLAST sequencing. The result of this BLAST showed 10 different bacteria types for each of my Illumina sequences. As each of the samples equally had same amount of sequences for each taxa of bacteria for each set of 10, trends were analyzed between each sample (Figure 7). All sequences except for AJ-2b_S65_L001_R1_001 had tested for a type of *Acinetobacter*. While all of the samples had a BLAST result of a certain type of *Bacillus* or *Bacillaceae* were present in their sequences. The genus *Bacterium* was only present in AJ-1a_S61_L001_R1_001 and AJ-3b_S66_L001_R1_001. *Actinomyces* or *actinmyocete* were present in AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001. AJ-1a_S61_L001_R1_001 had the unique bacteria of *Alloprevotella sp A1798* and *Brevundimos nasdae*. Other sequences with unique bacteria were AJ-1b_S64_L001_R1_001 with *Alloprevotella sp. A1789* and *Anaeroglobus sp. 54-A15* and  AJ-3a_S63_L001_R1_001 with *Anaerobic bacterium EtOH8*. 
+All Illumina Sequences for the samples successfully ran and were able to be processed for BLAST sequencing. The result of this BLAST showed 10 different bacteria types for each of my Illumina sequences. As each of the samples equally had same amount of sequences for each taxa of bacteria for each set of 10, trends were analyzed between each sample (Table 6). However, a lot of my samples had tested for uncultered *bacterium* as their first or second highest bacterium number. Samples 2a and 2b had uncultured *bacterium* as their highest identified taxa while Samples 1a, 1b, 3a, 3b all had a specific highest identified bacteria. Sample 1a tested for *Acinetobacter ursingii* and it was interesting that each sequence except for AJ-2b_S65_L001_R1_001 tested for a type of *Acinetobacter*. Sample 1b tested for *Haemophilus parainfluenza*, 3a had a *Petrocodon jingxiensis*, and 3b tested for *Corynebacterium acolens*. All of the samples had a BLAST result of a certain type of *Bacillus* or *Bacillaceae* were present in their sequences.
 
 # Discussion 
 
@@ -132,7 +132,7 @@ Mobile phones have become one of the indispensable accessories in everyday moder
 
 My Culture data confirmed my hypothesis statistically as there was a reported difference in the number of colonies found between the two groups (Figure 3). I also looked at the number of morphotypes with the colonies as colony morphotypes as a common measurement for diversity and/or isolation of the dominant species within bacterial communities [@10.1111/j.1574-6968.1998.tb12903.x] (Figure 4). For both conditions, I found that Nursing Students had less morphotypes and colony abundance in comparison to Regular Students. However, interestingly, I found that the bacteria found in the phones of the regular students (2B and 3B) indicated bacteria that were just as likely to be infectious than the bacteria found from the nursing student (3A). 2B showed up as the *Staphylococcus warneri* strain and 3B was the *Acinetobacter sp. strain*, while 3A had matched as the *Moraxella osloensis* strain. This contradicted previous studies which indicated that those who worked in the medical/ healthcare setting had much more resistant and dangerous bacteria found within their phones [@taher2019pathogenic]. While there was no complete indication that Nursing students had fewer bacteria than regular students, it was evident that Nursing students (Group A) had much fewer morphotypes in the colonies found in Group B. This data provided some evidence that Nursing students, at least the University of San Francisco, have much better safety precaution against high levels of bacterial growth in comparison to regular college students.  
 
-My Culture Free data also confirmed the idea that each of the species identified on cell phones were just as likely to be as infectious as the other regardless of whether the cell phone belonged to a Nursing Student or Regular Student. All sequences (except for the sequence of sample 2B: AJ-2b_S65_L001_R1_001) had tested for a type of *Acinetobacter* and  all of the samples had a type of *Bacillus* or *Bacillaceae*. These species are common for types of bacterium and can be a harmful pathogen for infectious diseases depending on the specific taxa. One interesting result from almost all samples testing for *Acinetobacter*, is that *Acinetobacter* are gram-negative organisms that can cause infections in any organ system often found within hospitalized patients and the fact that it was also present in all of the Regular Students indicated that the level of how harmful/ infectious the pathogen present on a cell phone did not differ on whether the cell phone user was exposed to the hospital setting as a Nursing student or a Regular student [-@kuo]. The species of *Bacillus* also has a clinical spectrum of infections which include things like food poisoning, localized infections related to trauma, deep seated soft tissue infections, and systemic infections [@weber1988vitro]. Thus, a majority of my Culture Free data contradicted my original idea that Regular Students would have more harmful bacteria due to their lack of sanitation, but instead shows that regardless of group type (A: Nursing students, B: Regular students) all samples tested for similar bacterial types.  
+My Culture Free data also confirmed the idea that each of the species identified on cell phones were just as likely to be as infectious as the other regardless of whether the cell phone belonged to a Nursing Student or Regular Student. All sequences (except for the sequence of sample 2B: AJ-2b_S65_L001_R1_001) had tested for a type of *Acinetobacter* and  all of the samples had a type of *Bacillus* or *Bacillaceae*. These species are common for types of bacterium and can be a harmful pathogen for infectious diseases depending on the specific taxa. One interesting result from almost all samples testing for *Acinetobacter*, is that *Acinetobacter* are gram-negative organisms that can cause infections in any organ system often found within hospitalized patients and the fact that it was also present in all of the Regular Students indicated that the level of how harmful/ infectious the pathogen present on a cell phone did not differ on whether the cell phone user was exposed to the hospital setting as a Nursing student or a Regular student [-@kuo]. The species of *Bacillus* also has a clinical spectrum of infections which include things like food poisoning, localized infections related to trauma, deep seated soft tissue infections, and systemic infections [@weber1988vitro]. As Sample 1a tested for *Acinetobacter ursingii*, Sample 1b had *Haemophilus parainfluenza*, 3a had a *Petrocodon jingxiensis*, and 3b tested for *Corynebacterium acolens*, each of these bacterium are known to create an airborn infection usually found within hospitals. Thus, a majority of my Culture Free data contradicted my original idea that Regular Students would have more harmful bacteria due to their lack of sanitation, but instead shows that regardless of group type (A: Nursing students, B: Regular students) all samples tested for similar bacterial types.  
 
 The end result of my report showed that while Regular Students had statistically shown a significant amount of bacterial colonies and morphotypes compared to Nursing Students, the level of how harmful/ infectious the bacteria (or bacteria type) did not differ between the two groups. While Nursing Students had less bacteria due to their sanitizing protocols, there is still the potential for the student to bring in an HAI into a hospital setting. Thus, further study on different sanitizing methods to properly kill off a majority of these infectious strains is required to come up with a better way of protecting hospital patients and workers. 
 
@@ -148,13 +148,13 @@ While I agree with the bootstrap values of my phylogenetic tree, it was hard to 
 
 ## Interpretation of Illumina Sequencing and Taxa
 
-Each of my Culture Free samples were able to properly sequence and run through BLAST with high quality reads (Table 4, 5). Each of the samples also listed for 10 different bacterium with equivalent presence in each sample (Figure 7). 
+Each of my Culture Free samples were able to properly sequence and run through BLAST with high quality reads (Table 4, 5). Each of the samples also listed for 10 different bacterium with equivalent presence in each sample (Table 6). 
 
-In contrast with my Culture data, 2B did not show up as the *Staphyloccus warneri* strand, but instead had a BLASTed for *actinmyocete BAL6* and other types of *Bacillus* bacterium (Figure 7). 3B did test for an *Acinetobacter sp. strain*, but this result singled out *Acinetobacter sp. IIL-Asp31*. 3A did not sequence for any *Moraxella osloensis* strain, but instead tested for *Acinetobacter*, *Actinmyces*, *Anaerobic Bacterium EtOH8*, and other *Bacillus* (Figure 7). The main difference between the newly BLASTed bacterium from my Illumina Sequences in comparison to my BLASTed Sanger Sequences is that 2B, 3B, and 3A all also had similar genera for their identified bacterium (either *Acinetobacter* and *Bacillus*). This contradicts previous studies that Nursing Students had less infectious pathogens within their cell phones, as the common genera amongst all samples were all potentially infectious. 
+In contrast with my Culture data, 2B did not show up as the *Staphyloccus warneri* strand, but instead had a BLASTed for either an uncultured *bacterium* or *Streptococcus penumoniae* (Table 6). 3B did not test for an *Acinetobacter sp. strain*, but instead a *Corynebacterium accolens*. 3A did not sequence for any *Moraxella osloensis* strain, but instead tested for *Petrocodon jingxiensis*. However, these bacterial species are still just as infectious as the species identified in Sanger Sequencing. This contradicts previous studies that Nursing Students had less infectious pathogens within their cell phones, as the common genera amongst all samples were all potentially infectious. 
 
 I am much more confident in these newly resulting identified bacterium due to the fact that the Culture Free data relied on Illumina Sequencing rather than Sanger Sequencing. This is important because Sanger sequencing only allows for a single DNA fragment at a time, while Illumina Sequencing, a type of Next Generation Sequencing, can sequence millions of fragments simultaneously per run. Illumina Sequencing is considered a high-throughput process which results in a more with deep sequencing, which gives me much more confidence in the bacteria identified from my Culture Free data rather than my Cultured.
 
-What was most interesting from Figure 7 was that all sequences for the Regular Students (1B, 2B, 3B) had tested for a type of *Actinomyces* or *actinomycete*. This was important as actinomycosis is a rare chronic disease caused by the *Actinomyces*, an anaerobic Gram-positive bacteria that normally colonize the human mouth and digestive and genital tracts [@kim2014actinomyces]. While 3A also tested for *Actinomyces sp.*, the majority trend of Regular Students all containing the pathogen provided potential evidence that could have supported my hypothesis that Regular Students would have a greater number of harmful pathogens. However, from the other similar types of genera present in all samples, I came to the conclusion that all types of bacterium can occur on any type of phone, regardless of profession or the frequency of cell phone sanitation. 
+What was most interesting was that all sequences for the Regular Students (1B, 2B, 3B) did test for a type of *Actinomyces* or *actinomycete*. This was important as actinomycosis is a rare chronic disease caused by the *Actinomyces*, an anaerobic Gram-positive bacteria that normally colonize the human mouth and digestive and genital tracts [@kim2014actinomyces]. While 3A also tested for *Actinomyces sp.*, the majority trend of Regular Students all containing the pathogen provided potential evidence that could have supported my hypothesis that Regular Students would have a greater number of harmful pathogens. However, from the other similar types of genera present in all samples, I came to the conclusion that all types of bacterium can occur on any type of phone, regardless of profession or the frequency of cell phone sanitation. 
 
 ## Error Analysis 
 
@@ -355,9 +355,16 @@ culture_data %>%
 
 ## Command-line BLAST Analysis
 
-![Final BLAST result for Illumina Sequences](data/images/Illumina_BLAST_result/Illumina-Sequences-BLAST-Summary.png)
+|       File Name       | Highest Identified Blast Result | Second Blast Result        |
+|:---------------------:|---------------------------------|----------------------------|
+| AJ-1a_S61_L001_R1_001 | *Acinetobacter ursingii*        | *Massilia timonae*         |
+| AJ-1b_S64_L001_R1_001 | *Haemophilus parainfluenza*     | *Streptococcus pneumoniae* |
+| AJ-2a_S62_L001_R1_001 | uncultured *bacterium*          | *Acinetobacter tandoii*    |
+| AJ-2b_S65_L001_R1_001 | uncultured *bacterium*          | *Streptococcus pnuemoniae* |
+| AJ-3a_S63_L001_R1_001 | *Petrocodon jingxiensis*        | uncultured *bacterium*     |
+| AJ-3b_S66_L001_R1_001 | *Corynebacterium accolens*      | uncultured *bacterium*     |
 
-**Figure 7:** Image showcasing final BLAST result from fasta Illumina sequence sample files on the command-line Terminal. All sequences are highlighted in red or indicated via the arrow. Each sequence had BLASTed for 10 different bacteria types with 1 of each bacteria listed below each line (n=6 sequences, 60 different bacteria listed ). 
+**Table 6:** Image showcasing final BLAST result from fasta Illumina sequence sample files on the command-line Terminal. All sequences are highlighted in red or indicated via the arrow. Each sequence had BLASTed for 10 different bacteria types with 1 of each bacteria listed below each line (n=6 sequences, 60 different bacteria listed ). 
 
 ## Phylum Abundance
 
@@ -370,7 +377,7 @@ plot_bar(phyloseq_obj,
          fill = "Phylum")
 ```
 
-**Figure 8:** Plot bar comparing the abundance of different phylum within the samples of Nursing Students and Regular Students. Positive and negative contorls are also present for comparison. 
+**Figure 7:** Plot bar comparing the abundance of different phylum within the samples of Nursing Students and Regular Students. Positive and negative contorls are also present for comparison. 
 
 ```{r}
 plot_richness(phyloseq_obj,
@@ -381,7 +388,7 @@ plot_richness(phyloseq_obj,
   theme_bw()
 ```
 
-**Figure 9:** Boxplot showing the Alpha Diversity Measure within types of samples.
+**Figure 8:** Boxplot showing the Alpha Diversity Measure within types of samples.
 
 ```{r}
 # Table summarizing base pairs
@@ -394,13 +401,13 @@ melted_phyloseq %>%
                                   na.rm = TRUE))
 ```
 
-**Figure 10:** Table summarizing sequence counts for each Phylum.
+**Figure 9:** Table summarizing sequence counts for each Phylum.
+
+**Figure 10:**
 
 **Figure 11:**
 
 **Figure 12:**
-
-**Figure 13:**
 
 # Sources Cited
 
