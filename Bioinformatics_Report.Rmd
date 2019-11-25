@@ -435,7 +435,7 @@ melted_phyloseq %>%
                                    hjust = 1,
                                    vjust = 1,
                                    size = 4)) +
-  geom_text_repel(aes(label = sum_abundance), vjust = -1, size = 4) +
+  geom_text_repel(aes(label = sum_abundance), vjust = -1, size = 3) +
   ggtitle("Sum Abundance of phyla in Sample Groups")
 ```
 **Figure 10:** Bar plot showing the difference between the sum abundance of phyla in Samples groups: Nursing Student versus Regular Student. This does not include any negative control samples. 
