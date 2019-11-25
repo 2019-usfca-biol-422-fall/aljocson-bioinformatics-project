@@ -368,46 +368,141 @@ culture_data %>%
 
 ## Phylum Abundance
 
-```{r}
-# create a plot showcasing abundance of different phlyum
-# compares two sampled groups and controls
-load("output/phyloseq_obj.Rda")
-plot_bar(phyloseq_obj,
-         x = "type",
-         fill = "Phylum")
-```
-
-**Figure 7:** Plot bar comparing the abundance of different phylum within the samples of Nursing Students and Regular Students. Positive and negative contorls are also present for comparison. 
-
-```{r}
-plot_richness(phyloseq_obj,
-              x = "type",
-              measures = c("Observed")) +
-  xlab("Type of sample") +
-  geom_boxplot() +
-  theme_bw()
-```
-
-**Figure 8:** Boxplot showing the Alpha Diversity Measure within types of samples.
-
-```{r}
-# Table summarizing base pairs
+```{r melt-phyloseq}
+# Create melted phyloseq into environment
+# melt phyloseq object into plot
 melted_phyloseq <- psmelt(phyloseq_obj)
 melted_phyloseq <- melted_phyloseq %>%
   mutate_if(is.factor, as.character)
+
+# Number of sequences that match
 melted_phyloseq %>%
   group_by(student_initials, Phylum) %>%
   summarize(sum_abundance = sum(Abundance,
                                   na.rm = TRUE))
 ```
 
-**Figure 9:** Table summarizing sequence counts for each Phylum.
+```{r abundance-phyla}
+# create a plot showcasing abundance of different phlyum
+# compares two sampled groups and controls
+ggplot(melted_phyloseq, aes(x = type,
+                            y = Abundance,
+                            fill = Phylum,
+                            color = Phylum)) +
+  geom_col() +
+  ggtitle("Abundance of phyla in Sample Groups")
+```
 
-**Figure 10:**
+**Figure 7:** Plot bar comparing the abundance of different phyla within the samples of Nursing Students and Regular Students. Positive and negative contorls are also present for comparison. 
 
-**Figure 11:**
+### Sum Abundance of Phyla 
+         
+```{r sum-abundance}
+# create a chart showing the sum abundance for each phyla per sample group
+melted_phyloseq %>%
+  filter(student_initials == "AJ") %>%
+  group_by(Phylum) %>%
+  summarize(sum_abundance = sum(Abundance,
+                                na.rm = TRUE)) %>%
+  ggplot(aes(x = Phylum,
+             y = sum_abundance,
+             fill = Phylum)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45,
+                                   hjust = 1,
+                                   vjust = 1)) +
+  ggtitle("Sum Abundance of phyla in Sample Groups")
+```
 
-**Figure 12:**
+**Figure 9:** Plot bar showing the sum Abundance of the different phyla between all Sample Groups: Nursing Students versus Regular students. This also includes all Negative controls. 
+
+```{r sum-abundance-sample-groups}
+# create a chart showing sum abundance
+# between Nursing Students and Regular students only
+melted_phyloseq %>%
+  filter(student_initials == "AJ") %>%
+  group_by(type, Phylum) %>%
+  summarize(sum_abundance = sum(Abundance,
+                                na.rm = TRUE)) %>%
+  ggplot(aes(x = Phylum,
+             y = sum_abundance,
+             fill = type)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45,
+                                   hjust = 1,
+                                   vjust = 1)) +
+  geom_text(aes(label = sum_abundance), vjust = -0.3) +
+  ggtitle("Sum Abundance of phyla in Sample Groups")
+```
+**Figure 10:** Bar plot showing the difference between the sum abundance of phyla in Samples groups: Nursing Student versus Regular Student. This does not include any negative control samples. 
+
+```{r mean-abudance}
+# create a chart showing the mean abundance for each phyla per sample group
+melted_phyloseq %>%
+  filter(student_initials == "AJ") %>%
+  group_by(sample_id, type, Phylum) %>%
+  summarize(sum_abundance = sum(Abundance,
+                                na.rm = TRUE)) %>%
+  ungroup() %>%
+  group_by(type, Phylum) %>%
+  summarize(mean_abundance = mean(sum_abundance,
+                                  na.rm = TRUE),
+            sd_abundance = sd(sum_abundance,
+                              na.rm = TRUE)) %>%
+  ggplot(aes(x = Phylum,
+         y = mean_abundance,
+         fill = type)) +
+  geom_errorbar(aes(ymin = mean_abundance,
+                    ymax = mean_abundance + sd_abundance),
+                width = 0.2,
+                position = position_dodge(0.9)) +
+  geom_col(position = position_dodge()) +
+  theme(axis.text.x = element_text(angle = 45,
+                                   hjust = 1,
+                                   vjust = 1)) +
+  ggtitle("Mean Abundance of phyla in Sample Groups")
+```
+
+**Figure 11:** Bar plot showing the difference between the mean abundance of Phyla in Samples groups: Nursing Student versus Regular Student. 
+
+## Diversity Measurement
+
+```{r alpha-diversity}
+# Create a phyloseq-native analysis to do alpha diversity
+plot_richness(phyloseq_obj,
+              x = "type",
+              measures = c("Simpson", "Shannon")) +
+  xlab("Type of sample") +
+  geom_boxplot() +
+  theme_bw() +
+    theme(axis.text.x = element_text(angle = 45,
+                                   hjust = 1,
+                                   vjust = 1)) +
+  ggtitle("Alpha Diversity Measure within Sample Groups")
+```
+
+**Figure 12:** Boxplot showing the Alpha Diversity Measure within types of samples using Shannon's and Simpson's indexes. Simpson is a similarity index while Shannon is a diversity index. 
+
+## Errors
+
+```{r non-availble}
+# Plot of samples with Not Available Phyla
+melted_phyloseq %>%
+  filter(student_initials == "AJ") %>%
+  filter(is.na(Phylum)) %>%
+  group_by(sample_id) %>%
+  summarize(sum_abundance = sum(Abundance,
+                                na.rm = TRUE)) %>%
+  ggplot(aes(x = sample_id,
+             y = sum_abundance,
+             fill = sample_id)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 90,
+                                   hjust = 1,
+                                   vjust = 1)) +
+  ggtitle("Amount of Unidentifiable Phyla within Sample Types")
+```
+**Figure 13:** Specific samples from either group: Nusing Student (a) and Regular Students (b) that have a "Not Available" phyla type. 
 
 # Sources Cited
 
