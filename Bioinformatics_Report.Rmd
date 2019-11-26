@@ -98,7 +98,7 @@ After being sent out from the lab, my sequences were uploaded onto Geneious Prim
 
 ## Sequencing and Editing for Culture Free Data
 
-All Illumina sequences were edited using bash scripts. First, all sequences were unzipped into fastq files. These files were analyzed by their FastQC reports for quality of sequencing. I then trimmed each sequencing using Trimmomatic [@bolger2014trimmomatic]. Trimmomatic chopped off the first and last 5 nucleotides of each sequence and looked at everyone 8 nucleotides to see if they matched a quality level above 25. Any sequence that did not hae a minimum length of 140 was disregarded. After proper editing, my fastq files were converted into fasta files for better encoding of the BLAST results. BLAST was run on the terminal for all Illumina sequences and summarized via the cut function [madden2013blast].
+All Illumina sequences were edited using bash scripts. First, all sequences were unzipped into fastq files. These files were analyzed by their FastQC reports for quality of sequencing. I then trimmed each sequencing using Trimmomatic [@bolger2014trimmomatic]. Trimmomatic chopped off the first and last 5 nucleotides of each sequence and looked at everyone 8 nucleotides to see if they matched a quality level above 25. Any sequence that did not have a minimum length of 140 was disregarded. After proper editing, my fastq files were converted into fasta files for better encoding of the BLAST results. BLAST was run on the terminal for all Illumina sequences and summarized via the cut function [madden2013blast].
 
 # Results
 
@@ -106,11 +106,11 @@ I wanted to confirm that there was a statistically significant difference betwee
 
 ## Qubit Data and Gel Electrophoresis
 
-I had collected Qubit data from all my samples to ensure DNA content (Table 1). This provided a more accurate measurement of how much DNA was successfully extracted in my samples. All my samples were confirmed  with a high Qubit value (~3-30 ng/ml), thus indicating a good amount of DNA was present in my samples to be confident in preparation for PCR (Table 1). Following Touchdown PCR of my Culture samples, gel electrophoresis was done to analyze DNA molecular size and compare it alongside other samples. Each gel ran on 2 percent Agarose gel with SYBR Safe Dye added to it and ran overnight alongside a ladder (Ez load 1 kb Molecular Ruler) for comparison (Figure 1). My final gel electrophoresis for my Culture Data showcased strong bands are seen in samples 1A, 2B, and 3B. 2A and 3A were described as light bands but are still prominently shown. However, 1b and the control failed to run at all, producing no bands (Figure 1). I also ran gel electrophoresis to confrim my Culture Free samples and found that this gel was different in comparison to the Culture Data (Figure 1) as these bands appeared much lower within the gel (Figure 2). Bands for 1a, 2a, 1b, and the control all appeared very faintly in comparison to 2b and 3b which were much more distinct white bands. The sample, 3a, appeared most lightly on the gel in comparison to the other run bands. These gel images show how the DNA within the samples were separated based on size and charge. This was also done to help indicate whether our PCR protocol would work by confirming that the samples had contained DNA which resulted in this formed bands (Figure 2). 
+I had collected Qubit data from all my samples to ensure DNA content (Table 1). This provided a more accurate measurement of how much DNA was successfully extracted in my samples. All my samples were confirmed  with a high Qubit value (~3-30 ng/ml), thus indicating a good amount of DNA was present in my samples to be confident in preparation for PCR (Table 1). Following Touchdown PCR of my Culture samples, gel electrophoresis was done to analyze DNA molecular size and compare it alongside other samples. Each gel ran on 2 percent Agarose gel with SYBR Safe Dye added to it and ran overnight alongside a ladder (Ez load 1 kb Molecular Ruler) for comparison (Figure 1). My final gel electrophoresis for my Culture Data showcased strong bands are seen in samples 1A, 2B, and 3B. 2A and 3A were described as light bands but are still prominently shown. However, 1b and the control failed to run at all, producing no bands (Figure 1). I also ran gel electrophoresis to confirm my Culture Free samples and found that this gel was different in comparison to the Culture Data (Figure 1) as these bands appeared much lower within the gel (Figure 2). Bands for 1a, 2a, 1b, and the control all appeared very faintly in comparison to 2b and 3b which were much more distinct white bands. The sample, 3a, appeared most lightly on the gel in comparison to the other run bands. These gel images show how the DNA within the samples were separated based on size and charge. This was also done to help indicate whether our PCR protocol would work by confirming that the samples had contained DNA which resulted in this formed bands (Figure 2). 
 
 ## Culture Data 
 
-After ensuring that my samples had run to completion, I also wanted to quantify my culture data for any statistically significant results between my two sample groups by using my previously collected data for counting colony abundances and morphotypes. This data was taken after analyzing my Petri TSA plate samples, using the sample dilutions with the most amount of data. From this collected data, I used a box plot to see the average and any outliers within my data (Figure 3, 4). I also used a statistical test in order to determine how statistically significant my results were to make a confident conclusion as to how to interpret my data. My boxplots from my culture data show that the number of colonies between the two groups (Group A - Nursing, Group B - Regular) were statistically different (p = 0.0365, Figure 3). Also seen in the number of morphotypes, their was also a statistically significant that suggests evidence of rejecting the null hypothesis due to p = 0.05 (Figure 4). This data confirms that there the higher number of colonies and different morphotypes within Group B (regular college students) in comparison to Group A (nursing students) is statistically significant.
+After ensuring that my samples had run to completion, I also wanted to quantify my culture data for any statistically significant results between my two sample groups by using my previously collected data for counting colony abundances and morphotypes. This data was taken after analyzing my Petri TSA plate samples, using the sample dilutions with the most amount of data. From this collected data, I used a box plot to see the average and any outliers within my data (Figure 3, 4). I also used a statistical test in order to determine how statistically significant my results were to make a confident conclusion as to how to interpret my data. My box plots from my culture data show that the number of colonies between the two groups (Group A - Nursing, Group B - Regular) were statistically different (p = 0.0365, Figure 3). Also seen in the number of morphotypes, their was also a statistically significant that suggests evidence of rejecting the null hypothesis due to p = 0.05 (Figure 4). This data confirms that there the higher number of colonies and different morphotypes within Group B (regular college students) in comparison to Group A (nursing students) is statistically significant.
 
 ## Sequencing 
 
@@ -122,7 +122,14 @@ As my samples were sent to a lab and returned from Sanger Sequencing, each DNA f
 
 After unzipping my Illumina Sequences, I looked at my fastq files' FastQC Reports to see level of quality of the Illumina Sequences ran. Each of my sequences were not flagged for poor quality and was regarded as a successful run (Table 4). AJ-1a_S61_L001_R1_001 and AJ-1b_S64_L001_R1_001 both had the same Sequence Length of 147-151 while AJ-2a_S62_L001_R1_001 and AJ-3b_S66_L001_R1_001 also had the same length of 41-151 (Table 4). AJ-2b_S65_L001_R1_001 and AJ-3a_S63_L001_R1_001 had sequence lengths that were one off from the first two groups respectively (Table 4). I looked at %GC which indicates all counted G and C base pairs over total count of all possible base pairs (Count(G + C)/Count(A + T + G + C) * 100%.). Sequences AJ-1a_S61_L001_R1_001, AJ-1b_S64_L001_R1_001, and AJ-2b_S65_L001_R1_001 had a %GC of 52% while the rest of the sequences had 53%. All %GC were within the range to have all the sequences be regarded as quality sequences (Table 4). For further quality of my sequences, I used Trimmomatic to edit my sample sequences. 'Before Trimming' data was taken from the FastQC reports under 'Total Sequences' for each sample (Table 5). Total sequences is a count of the total number of sequences processed. 'After Trimming' data was taken from the command line using the grep-c function within my illumina sequence data. Percentage survived average these two data sets. Samples AJ-1b_S64_L001_R1_001, AJ-2b_S65_L001_R1_001, AJ-3a_S63_L001_R1_001 were able to keep around 95% of the original sequences. While samples AJ-1a_S61_L001_R1_001, AJ-2a_S62_L001_R1_001, and AJ-3b_S66_L001_R1_001 kept around 93% of their original sequence. All samples maintained a high percentage survival which indicated that all sequences successfully ran (Table 5).
 
-All Illumina Sequences for the samples successfully ran and were able to be processed for BLAST sequencing. The result of this BLAST showed 10 different bacteria types for each of my Illumina sequences. As each of the samples equally had same amount of sequences for each taxa of bacteria for each set of 10, trends were analyzed between each sample (Table 6). However, a lot of my samples had tested for uncultered *bacterium* as their first or second highest bacterium number. Samples 2a and 2b had uncultured *bacterium* as their highest identified taxa while Samples 1a, 1b, 3a, 3b all had a specific highest identified bacteria. Sample 1a tested for *Acinetobacter ursingii* and it was interesting that each sequence except for AJ-2b_S65_L001_R1_001 tested for a type of *Acinetobacter*. Sample 1b tested for *Haemophilus parainfluenza*, 3a had a *Petrocodon jingxiensis*, and 3b tested for *Corynebacterium acolens*. All of the samples had a BLAST result of a certain type of *Bacillus* or *Bacillaceae* were present in their sequences.
+All Illumina Sequences for the samples successfully ran and were able to be processed for BLAST sequencing. The result of this BLAST showed 10 different bacteria types for each of my Illumina sequences. As each of the samples equally had same amount of sequences for each taxa of bacteria for each set of 10, trends were analyzed between each sample (Table 6). However, a lot of my samples had tested for uncultured *bacterium* as their first or second highest bacterium number. Samples 2a and 2b had uncultured *bacterium* as their highest identified taxa while Samples 1a, 1b, 3a, 3b all had a specific highest identified bacteria. Sample 1a tested for *Acinetobacter ursingii* and it was interesting that each sequence except for AJ-2b_S65_L001_R1_001 tested for a type of *Acinetobacter*. Sample 1b tested for *Haemophilus parainfluenza*, 3a had a *Petrocodon jingxiensis*, and 3b tested for *Corynebacterium acolens*. All of the samples had a BLAST result of a certain type of *Bacillus* or *Bacillaceae* were present in their sequences.
+
+
+## Abundance and Diversity
+I wanted to confirm the different phyla within my sample groups. I found that (Figure 7). I also wanted to compare the sum abundance of the phyla between the sample groups and found that *Actinobacteria* and *Proteobacteria* were the most common among all sample groups (~25,000). Next was the amount of *Firmicutes* which was around ~18000 and actinobacteria which was around ~20,000 (Figure 7). In order to compare the sum abundance between just my two sample groups, I found that Nursing students contained a higher sum abundance value across all phyla in comparison to the Regular Students (Figure 8). I also used the mean abundance for reference, in comparison to sum abundance, to show any variance and outliers (Figure 9). From the mean abundance, I reconfirmed that Regular students had a greater mean abundance across all found ohyla  (Figre 10). To confirm this diversity measure, I also looked at Alpha Diversity Measure of my samples in comparison to Simpson and Shannon's indexes (Figure 11). From this data set, I found that Nursing students had less of diversity measure in comparison to its Simpson control due to the added outlying data (Figure 11) (Nursing was around ~0.9). I also wanted to look at my similarity index and found that it is mostly the all negative control (~0.4) (Figure 11). From Shannon's similarity index, the Group type for the BLAST command with Regular students having the most amound of diversity index and Simpson having the highest  
+
+## Any Error
+A bar graph was created to identify which strands from my samples did not run successfully (Figure 12). Runs that were not satisfactory, like %GC, were disregarded. I found that # my sample 3b tamed me from popping off "Non-Available"   I
 
 # Discussion 
 
@@ -156,6 +163,12 @@ I am much more confident in these newly resulting identified bacterium due to th
 
 What was most interesting was that all sequences for the Regular Students (1B, 2B, 3B) did test for a type of *Actinomyces* or *actinomycete*. This was important as actinomycosis is a rare chronic disease caused by the *Actinomyces*, an anaerobic Gram-positive bacteria that normally colonize the human mouth and digestive and genital tracts [@kim2014actinomyces]. While 3A also tested for *Actinomyces sp.*, the majority trend of Regular Students all containing the pathogen provided potential evidence that could have supported my hypothesis that Regular Students would have a greater number of harmful pathogens. However, from the other similar types of genera present in all samples, I came to the conclusion that all types of bacterium can occur on any type of phone, regardless of profession or the frequency of cell phone sanitation. 
 
+##  Diversity and Abundance
+
+To confirm my previous studies on diversity and abundance, I created a phyloseq object in order to compare and create figures using my melted phyloseq sample data. I wanted to analyze the different phylum wtihin all of my sample groups. I found that a majority of all my samples had tested for the phyla: *Actinobacteria, Firmicutes,* and *Proteobacteria* (Figure 7). This data set was important to be able visualize the data that will be filtered out further, with Regular Students showcasing the most amount of abundance. It also gave us a better idea as to what types of bacteria were present. These three phyla that were present within the entire data set are all equally infectious (Figure 7). This data set also confirmed my BLAST results from Illumina that *Actinobacteria* is heavily present in all samples. This shows that neither Nursing Students and Regular Students have a more/ more likely to get infectious disease. Instead, it was important to focus on the fact that Regular Students were more likely to get bacteria based on the fact that they sanitize less. 
+
+I created both a sum and mean abundance plot to compare the two sample groups together (Nursing vs Regular Students) with any variance or outliers. I found out that this abundance had indicated that Regular Students had a larger mean/ range of its data set, while the sum indicated that there was more abundance within Nursing Students (Figure 9, 10). However, as previously stated, my negative controls were always unreliable due to the use of *E. coli* as a model. Thus, I wanted to look solely at my specific, collected samples. I used both a sum and a mean abundance as a mean gives a better indicator for the data as it also includes any variance. Most of my data within Figure 11 showcase that Regular Students tend to have a more diverse, both statistically/ numerically, amount of bacteria growining within their cell phone screens. Using a Shannon test, I found the diversity index of Regular Student's to be the highest as the outlier has an Alpha Diversity Measure of around 4.0 (Figure 11). In contrast, I used a Simpson test to look at diveristy and also found that Regular students had a higher outlier Alpha Diversity Measure of ~0.98 (Figure 11). This data confirms the idea that Regular Students contain a higher, more diverse amount of different bacteria within their cell phone screens. 
+
 ## Error Analysis 
 
 Due to the low number of actual sequencing DNA, it can be interpreted that there may have been something wrong during collection, extraction, PCR protocol, or even sequencing and everything in between (Table 2). 
@@ -164,7 +177,8 @@ Key data points that may have resulted in a lack of successful sequencing could 
 
 Other evidence of experimental failure could be due to cross-contamination, whether it be from extracting too much TSA when scraping the culture from the culture plates or by not being extra cautious when using pipette tips and handling other tools. As my Qubit data showed high numbers in the correct range, there is also the possibility that the bacteria that are found on the phones are resistant to PCR, air, water-- indicating that there is a lot of versatility in bacteria that my protocol could not account for. If that is the case, PCR could be redone at high temperatures to ensure complete denaturing of the DNA strands and longer cycles for higher amplification.
 
-Any other error in data from my Culture Free samples would be due to machine error. This can be attributed to any errors within command line (such as improper git pushes and cloning) or simple program errors from R Markdown or any other terminal commands. Other issues can be due to poor server connection when attempting to access the Tule sever within the University of San Francisco Network. 
+Any other error in data from my Culture Free samples would be due to machine error. This can be attributed to any errors within command line (such as improper git pushes and cloning) or simple program errors from R Markdown or any other terminal commands. I had noted in that within different samples, some phyla were never identified (Figure 12). This can confirm the possibility of contamination within my part or a problem with the way my phyloseq object or R markdown decided on assigning different phyla. Other issues can be due to poor server connection when attempting to access the Tule sever within the University of San Francisco Network.
+
 
 # Tables and Figures 
 
@@ -377,13 +391,8 @@ load("output/phyloseq_obj.Rda")
 melted_phyloseq <- psmelt(phyloseq_obj)
 melted_phyloseq <- melted_phyloseq %>%
   mutate_if(is.factor, as.character)
-
-# Number of sequences that match
-melted_phyloseq %>%
-  group_by(student_initials, Phylum) %>%
-  summarize(sum_abundance = sum(Abundance,
-                                  na.rm = TRUE))
 ```
+
 
 ```{r abundance-phyla}
 # create a plot showcasing abundance of different phlyum
@@ -396,7 +405,7 @@ ggplot(melted_phyloseq, aes(x = type,
   ggtitle("Abundance of phyla in Sample Groups")
 ```
 
-**Figure 7:** Plot bar comparing the abundance of different phyla within the samples of Nursing Students and Regular Students. Positive and negative contorls are also present for comparison. 
+**Figure 7:** Plot bar comparing the abundance of different phyla within the samples of Nursing Students and Regular Students. Both positive and negative controls are also present for comparison. 
 
 ### Sum Abundance of Phyla 
          
@@ -417,7 +426,7 @@ melted_phyloseq %>%
   ggtitle("Sum Abundance of phyla in Sample Groups")
 ```
 
-**Figure 9:** Plot bar showing the sum Abundance of the different phyla between all Sample Groups: Nursing Students versus Regular students. This also includes all Negative controls. 
+**Figure 8:** Plot bar showing the SUM abundance of the different phyla between all Sample Groups: Nursing Students versus Regular students. This also includes both Negative and Positive controls. 
 
 ```{r sum-abundance-sample-groups}
 # create a chart showing sum abundance
@@ -438,7 +447,8 @@ melted_phyloseq %>%
   geom_text_repel(aes(label = sum_abundance), vjust = -1, size = 3) +
   ggtitle("Sum Abundance of phyla in Sample Groups")
 ```
-**Figure 10:** Bar plot showing the difference between the sum abundance of phyla in Samples groups: Nursing Student versus Regular Student. This does not include any negative control samples. 
+**Figure 9:** 
+Bar plot showing the difference between the sum abundance of phyla within solely sample groups: Nursing Student (red) versus Regular Student (blue). This does not include any Positive or Negative control samples. Phyla is listed below on the x axis and sum abundance is soon as the y-value. 
 
 ```{r mean-abudance}
 # create a chart showing the mean abundance for each phyla per sample group
@@ -467,7 +477,8 @@ melted_phyloseq %>%
   ggtitle("Mean Abundance of phyla in Sample Groups")
 ```
 
-**Figure 11:** Bar plot showing the difference between the mean abundance of Phyla in Samples groups: Nursing Student versus Regular Student. 
+**Figure 10:** 
+Bar plot showing the difference between the mean abundance of phyla within samples groups. The two groups are: Nursing Student (red) versus Regular Student (blue). This allows for a general idea of the range for the mean abundance. 
 
 ## Diversity Measurement
 
@@ -485,7 +496,8 @@ plot_richness(phyloseq_obj,
   ggtitle("Alpha Diversity Measure within Sample Groups")
 ```
 
-**Figure 12:** Boxplot showing the Alpha Diversity Measure within types of samples using Shannon's and Simpson's indexes. Simpson is a similarity index while Shannon is a diversity index. 
+**Figure 11:** 
+Boxplot showing the Alpha Diversity Measure within types of samples. This uses both a Shannon's and Simpson's index to quantify phyloseq object. Simpson is a similarity index while Shannon is a diversity index in contrast. 
 
 ## Errors
 
@@ -506,7 +518,8 @@ melted_phyloseq %>%
                                    vjust = 1)) +
   ggtitle("Amount of Unidentifiable Phyla within Sample Types")
 ```
-**Figure 13:** Specific samples from either group: Nusing Student (a) and Regular Students (b) that have a "Not Available" phyla type. 
+**Figure 12:**
+Specific samples from either group: Nusing Student (a) and Regular Students (b) that have a "Not Available" phyla type. These samples are either considered a fail or a machine error. 
 
 # Sources Cited
 
