@@ -447,7 +447,7 @@ melted_phyloseq %>%
                                    hjust = 1,
                                    vjust = 1,
                                    size = 4)) +
-  geom_text_repel(aes(label = sum_abundance), vjust = -1, size = 3) +
+  geom_text_repel(aes(label = sum_abundance)) +
   ggtitle("Sum Abundance of phyla in Sample Groups")
 ```
 
