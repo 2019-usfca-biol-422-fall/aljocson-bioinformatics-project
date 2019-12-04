@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 Cell phones have become an essential tool for modern-day life; in fact, most people tend to not leave the house unless they have their cell phone present. With cell phones becoming more a necessity rather than an accessory, it is interesting to see how much bacteria our cell phones can collect from our daily lives. In fact, in a 2014 study done by Meadow et. al, they found that about 22% of the bacterial taxa on our fingers are also present on our own phones [@meadow2014mobile]. Meadow et. al's study implies that not only do cell phones hold potential as carriers to our microbiome bacteria, but also to all types of bacteria that are encountered throughout daily life.
 
-This idea is more worrisome when considering how much bacteria our cell phones can bring in, especially when working in expectedly sterile environments such as hospitals or emergency rooms. The constant handling of our cell phones is what makes it an easy breeding place for the transmission of microorganisms [@goldblatt2007use]. Karabay et. al (2007) found that health professionals in a teaching hospital in Turkey carried around cell phones that did get contaminated with bacteria, such as *E. coli*, which then could have caused hospital infections [@karabay2007role]. In this study, 111 of the 122 samples tested exhibited bacterial growth with ten (9.0%) samples indicating infectious bacteria such as *E. coli*, two *Enterococcus feacalis*, two *Pseudomonas aeruginosa*, one *Pseudomonas fluorescensis*, and one *Klebsiella pneumoniae* [-@karabay2007role]. Another study (Borer et. al) looked at *Acinetobacter* spp. as an endemic bacteria prone to causing infection within hospitals in Israel. They found a significant percentage of cell phones and hands were contaminated with *Acinetobacter* spp. and that cross-contamination between hands, cell phones, and patients occurred [@borer2005cell]. A similar study by Arora et. al, also looked at cell phones from both clinical and non-clinical hospital departments which confirmed the presence of harmful bacteria such as *E. coli* and *Staphylococcus aureus* [@arora2009cellphones]. Thus, there is a question as to whether all hospitals should be enforcing a sanitation protocol, regardless of direct patient contact. 
+It is concerning to think about how much bacteria our cell phones can bring in, especially when working in expectedly sterile environments such as hospitals or emergency rooms. The constant handling of our cell phones is what makes it an easy breeding place for the transmission of microorganisms [@goldblatt2007use]. Karabay et. al (2007) found that health professionals in a teaching hospital in Turkey carried around cell phones that did get contaminated with bacteria, such as *E. coli*, which then could have caused hospital infections [@karabay2007role]. In this study, 111 of the 122 samples tested exhibited bacterial growth with ten (9.0%) samples indicating infectious bacteria such as *E. coli*, two *Enterococcus feacalis*, two *Pseudomonas aeruginosa*, one *Pseudomonas fluorescensis*, and one *Klebsiella pneumoniae* [-@karabay2007role]. Another study (Borer et. al) looked at *Acinetobacter* spp. as an endemic bacteria prone to causing infection within hospitals in Israel. They found a significant percentage of cell phones and hands were contaminated with *Acinetobacter* spp. and that cross-contamination between hands, cell phones, and patients occurred [@borer2005cell]. A similar study by Arora et. al, also looked at cell phones from both clinical and non-clinical hospital departments which confirmed the presence of harmful bacteria such as *E. coli* and *Staphylococcus aureus* [@arora2009cellphones]. Thus, there is a question as to whether all hospitals should be enforcing a sanitation protocol, regardless of direct patient contact. 
 
 In 2009, Ulger et. al, found that from the cell phone screens of 200 health care workers tested at Turkey's Ondokuz Mayis University Faculty of Medicine, 94.5% showed evidence of bacterial contamination [@ulger2009we]. These results indicated that both the workers' hands and phones were similarly contaminated with various types of microorganisms  [-@ulger2009we]. This further justifies that cell phones used in daily practice for health care works may be a source of nonsocial infections in hospitals. However, the risk of unsafe hospital practices are not isolated in only hospitals in Turkey but are seen across the globe. Currently, hospital-acquired infections (HAI) have become a huge concern in all the hospitals around the world due to the increased morbidity and mortality. About 5% and 10% of patients admitted to hospitals end up catching an HAI [@sadat2010bacterial]. In the United States, the reported cost of HAI in 2002 was around 100,000 deaths and costs $20 billion yearly [@sadat2010bacterial]. 
 
@@ -102,7 +102,7 @@ All Illumina sequences were edited using bash scripts. First, all sequences were
 
 ## DADA2 and Phyloseq
 
-For analysis of my Illumina results, I used DADA2 [@callahan2016dada2] and phyloseq [@mcmurdie2013phyloseq]. From my Illumina-sequenced paired-end fastq files, DADA2 created a sequence variant (SV) table to record the number of times each ribosomal sequence variant (SV) was observed in each sample. In order to get my data to be ready for DADA2, I first filtered, and trimmed, and dereplicated my data [@dada2pipelinetutorial]. This was done using my error models to look at my sequences' error rates that were visualized into plots comparing error frequency versus quality score. Following these error models, I de-noised each of my sequences. One of my DADA parameters was to remove and disregard any sequences shorter than 50 because I would not be able to assign their taxonomy. After, the paired reads were then merged and constructed into the final expected sequence table. Within this table, each of my samples were assigned different taxonomy which were then imported into the phyloseq R package for the analysis. Using Phyloseq, I created various tables and groups for an easier visualization of my different phyla, groups, taxa, etc. 
+For analysis of my Illumina results, I used DADA2 [@callahan2016dada2] and phyloseq [@mcmurdie2013phyloseq]. From my Illumina-sequenced fastq files, DADA2 created a sequence variant (SV) table to record the number of times each ribosomal sequence variant (SV) was observed in each sample. In order to get my data to be ready for DADA2, I first filtered, and trimmed, and dereplicated my data [@dada2pipelinetutorial]. This was done using my error models to look at my sequences' error rates that were visualized into plots comparing error frequency versus quality score. Following these error models, I de-noised each of my sequences. One of my DADA parameters was to remove and disregard any sequences shorter than 50 because I would not be able to assign their taxonomy. After, the paired reads were then merged and constructed into the final expected sequence table. Within this table, each of my samples were assigned different taxonomy which were then imported into the phyloseq R package for the analysis. Using Phyloseq, I created various tables and groups for an easier visualization of my different phyla, groups, taxa, etc. 
 
 # Results
 
@@ -130,12 +130,13 @@ All Illumina Sequences for the samples successfully ran and were able to be proc
 
 ## Abundance and Diversity (DADA Results)
 
-I also used DADA to analyze my data by running my Illumina sequences through an R Markdown pipeline. My DADA results identified 92 bimeras out of 675 input sequences. My data was compiled into a markdown table indicating the amount denoised, sequence table, and non-chimeric reads (Table 7). My amount of nucleotides denoised were also the same number for the sequence table reads for all samples. The non-chimeric reads for 1A: 7497 2A: 10309, 3A: 7124, 1B: 13674, 2B: 13831, 3B: 11852. From denoising, I found the sequence variants for each unique sequences with 1A: 62 sequence variants from 3960 input unique sequences, 1B: 99 from 4877, 2A: 83 from 3652 input, 2B: 131 from 7057, 3A: 124 from 6374, 3B: 100 from 5696. Any sequence that was below 50 reads was disregarded because DADA would not be able ot assign taxonomy. 
+I also used DADA to analyze my data by running my Illumina sequences through an R Markdown pipeline. My DADA results identified 92 bimeras out of 675 input sequences. My data was compiled into a markdown table indicating the amount denoised, sequence table, and non-chimeric reads (Table 7). My amount of nucleotides denoised were also the same number for the sequence table reads for all samples. The non-chimeric reads were for 1A: 7497, 2A: 10309, 3A: 7124, 1B: 13674, 2B: 13831, 3B: 11852. From denoising, I found the sequence variants for each unique sequences with 1A: 62 sequence variants from 3960 input unique sequences, 1B: 99 from 4877, 2A: 83 from 3652 input, 2B: 131 from 7057, 3A: 124 from 6374, 3B: 100 from 5696. Any sequence that was below 50 reads was discarded because DADA would not be able to assign taxonomy. 
 
-I also wanted to confirm the different phyla within my sample groups. I found that (Figure 7). Thus, I compared the sum abundance of the phyla between the sample groups and found that *Actinobacteria* and *Proteobacteria* were the most common among all sample groups (~25,000). Next was the amount of *Firmicutes* which was around ~18000 and actinobacteria which was around ~20,000 (Figure 7). In order to compare the sum abundance between just my two sample groups, I found that Nursing students contained a higher sum abundance value across all phyla in comparison to the Regular Students (Figure 8). I also used the mean abundance for reference, in comparison to sum abundance, to show any variance and outliers (Figure 9). From the mean abundance, I reconfirmed that Regular students had a greater mean abundance across all found phyla  (Figure 10). To confirm this diversity measure, I also looked at the Alpha Diversity Measure of my samples in comparison to Simpson and Shannon's indexes (Figure 11). From this data set, I found that Nursing students had less diversity measure in comparison to its Simpson control due to the added outlying data (Figure 11) (Nursing was around ~0.9). I also wanted to look at my similarity index and found that it is mostly all negative control (~0.4) (Figure 11). From Shannon's similarity index, the Group type for the BLAST command with Regular students having the most amount of diversity index and Simpson having the highest. 
+I also wanted to confirm the different phyla within my sample groups. I found that my Regular Students had a higher abundance of phyla in comparison to my negative controls. Both of which were even higher than my Nursing Students (Figure 7). I also compared the sum abundance of the phyla between each sample groups and found that *Proteobacteria* were the most prevalent among all sample groups (~25,000 sequences). Other notable bacteria were *Actinobacteria* with an abudance of around ~20,000 sequences and *Firmuicutes* at around ~18,000 sequences (Figure 7). In order to compare the sum abundance without my controls, I found that Nursing students contained a higher sum abundance value across all phyla in comparison to the Regular Students (Figure 8). I also used the mean abundance for reference, in comparison to sum abundance, to show any variance and outliers (Figure 9). From the mean abundance, I reconfirmed that Regular students had a greater mean abundance across all found phyla  (Figure 10). To confirm this diversity measure, I also looked at the Alpha Diversity Measure of my samples in comparison to Simpson and Shannon's indexes (Figure 11). From this data set, I found that Nursing students had less diversity measure in comparison to its Simpson control due to the added outlying data (Figure 11) (Nursing was around ~0.9). I also wanted to look at my similarity index and found that it is mostly all negative control (~0.4) (Figure 11). From Shannon's similarity index, the Group type for the BLAST command with Regular students having the most amount of diversity index and Simpson having the highest. 
 
-## Any Error
-A bar graph was created to identify which strands from my samples did not run successfully (Figure 12). Runs that were not satisfactory, like %GC, were disregarded. Sample 3B showed the most amount of phyla that were unidentifiable which was a sum abundance of over 600.
+## Errors
+
+I also anticipated contimination in the high sequencing of my controls and failed sequencing of my sample groups. I found that a significant number of my samples had unsuccessful runs when comparing phyla (Figure 12). Sample 3B showed the most amount of phyla that were unidentifiable which was a sum abundance of over 600 sequences.
 
 # Discussion 
 
@@ -173,7 +174,7 @@ What was most interesting was that all sequences for the Regular Students (1B, 2
 
 ##  Diversity and Abundance (DADA Results)
 
-To confirm my previous studies on diversity and abundance, I used DADA and my phyloseq object in order to compare and create figures using my melted phyloseq sample data. In order to compare my data with my BLAST results, I wanted to analyze the different phylum within all of my sample groups. I found that a majority of all my samples had tested for the phyla: *Actinobacteria, Firmicutes,* and *Proteobacteria* (Figure 7). From these major samples, Regular Students showcased the most amount of abundance for each group. This figure also gave a better idea as to what types of bacteria were present in comparison to my BLAST results. Like the phyla of my BLAST results, the three phyla that were present within the entire data set were also all equally infectious (Figure 7). This data set also confirmed my BLAST results that *Actinobacteria* and *Proteobacteria* (in the form of *Acinetobacteria*) is heavily present in all samples. This shows that neither Nursing Students and Regular Students have a more/ more likely to get infectious disease. Instead, it was important to focus on the fact that Regular Students were more likely to get bacteria based on the fact that they sanitize less. 
+To confirm my previous studies on diversity and abundance, I used DADA and my phyloseq object in order to compare and create figures using my melted phyloseq sample data (Table 7). In order to compare my data with my BLAST results, I wanted to analyze the different phylum within all of my sample groups. I found that a majority of all my samples had tested for the phyla: *Actinobacteria, Firmicutes,* and *Proteobacteria* (Figure 7). From these major samples, Regular Students showcased the most amount of abundance for each group. This figure also gave a better idea as to what types of bacteria were present in comparison to my BLAST results. Like the phyla of my BLAST results, the three phyla that were present within the entire data set were also all equally infectious (Figure 7). This data set also confirmed my BLAST results that *Actinobacteria* and *Proteobacteria* (in the form of *Acinetobacteria*) is heavily present in all samples. This shows that neither Nursing Students and Regular Students have a more/ more likely to get infectious disease. Instead, it was important to focus on the fact that Regular Students were more likely to get bacteria based on the fact that they sanitize less. 
 
 I created both a sum and mean abundance plot to compare the two sample groups together (Nursing vs Regular Students) with any variance or outliers. I found out that mean abundance had indicated that Regular Students had a larger mean/ range of its data set, while the sum indicated that there was more abundance within Nursing Students (Figure 9, 10). I regarded that the mean abundance was more statistically significant as it accounts for more variance within the data set. As previously stated, my negative controls were always unreliable due to the use of *E. coli* as a model, thus I looked solely at my collected samples and ignored any negative controls. Most of my data within Figure 11 showcase that Regular Students tend to have a more diverse, both statistically/ numerically, amount of bacteria growing within their cell phone screens. Using a Shannon test, I found the diversity index of Regular Student's to be the highest as the outlier has an Alpha Diversity Measure of around 4.0 (Figure 11). In contrast, I used a Simpson test to look at diversity and also found that Regular students had a higher outlier Alpha Diversity Measure of ~0.98 (Figure 11). This data confirms the idea that Regular Students contain a higher, more diverse amount of different bacteria within their cell phone screens. 
 
@@ -428,10 +429,11 @@ ggplot(melted_phyloseq, aes(x = type,
                             fill = Phylum,
                             color = Phylum)) +
   geom_col() +
-  ggtitle("Abundance of phyla in Sample Groups") +
+  ggtitle("Abundance of Phyla in Sample Groups") +
   theme(axis.text.x = element_text(angle = 45,
                                    hjust = 1,
                                    vjust = 1)) +
+  xlab("Sample Group") +
   theme(legend.position = "bottom")
 ```
 
@@ -450,7 +452,8 @@ melted_phyloseq %>%
   ggplot(aes(x = Phylum,
              y = sum_abundance,
              fill = Phylum)) +
-  ggtitle("Sum Abundance of phyla in Sample Groups") +
+  ylab("Number of Sequences") +
+  ggtitle("Sum Abundance of Phyla in Sample Groups") +
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,
                                    hjust = 1,
@@ -458,7 +461,7 @@ melted_phyloseq %>%
   theme(legend.position = "bottom")
 ```
 
-**Figure 8:** Plot bar showing the SUM abundance of the different phyla between all Sample Groups: Nursing Students versus Regular students. This also includes both Negative and Positive controls.
+**Figure 8:** Plot bar showing the sum abundance of the different phyla between all Sample Groups: Nursing Students versus Regular students. This also includes both Negative and Positive controls.
 
 ```{r sum-abundance-sample-groups}
 # create a chart showing sum abundance
@@ -472,11 +475,13 @@ melted_phyloseq %>%
              y = sum_abundance,
              fill = type)) +
   geom_col() +
+  ylab("Number of Sequences") +
   theme(axis.text.x = element_text(angle = 50,
                                    hjust = 1,
                                    vjust = 1,
                                    lineheight = 4)) +
-  ggtitle("Sum Abundance of phyla in Sample Groups")
+  ggtitle("Sum Abundance of Phyla in Sample Groups") +
+  theme(legend.title = element_blank())
 ```
 
 **Figure 9:** Bar plot showing the difference between the sum abundance of phyla within solely sample groups: Nursing Student (red) versus Regular Student (blue). This does not include any Positive or Negative control samples. Phyla is listed below on the x axis and sum abundance is soon as the y-value. 
@@ -505,7 +510,9 @@ melted_phyloseq %>%
   theme(axis.text.x = element_text(angle = 45,
                                    hjust = 1,
                                    vjust = 1)) +
-  ggtitle("Mean Abundance of phyla in Sample Groups")
+  ylab("Number of Sequences") +
+  ggtitle("Mean Abundance of Phyla in Sample Groups") +
+  theme(legend.title = element_blank())
 ```
 
 **Figure 10:** Bar plot showing the difference between the mean abundance of phyla within samples groups. The two groups are: Nursing Student (red) versus Regular Student (blue). This allows for a general idea of the range for the mean abundance. 
@@ -528,7 +535,7 @@ plot_richness(phyloseq_obj,
 
 **Figure 11:** Boxplot showing the Alpha Diversity Measure within types of samples. This uses both a Shannon's and Simpson's index to quantify phyloseq object. Simpson is a similarity index while Shannon is a diversity index in contrast. 
 
-## Errors
+## Error in Phyla
 
 ```{r non-availble}
 # Plot of samples with Not Available Phyla
@@ -545,7 +552,10 @@ melted_phyloseq %>%
   theme(axis.text.x = element_text(angle = 90,
                                    hjust = 1,
                                    vjust = 1)) +
-  ggtitle("Amount of Unidentifiable Phyla within Sample Types")
+  ylab("Number of Sequences") +
+  xlab("Sample ID") +
+  ggtitle("Amount of Unidentifiable Phyla within Sample Types") +
+  theme(legend.title = element_blank())
 ```
 
 **Figure 12:** Specific samples from either group: Nursing Student (a) and Regular Students (b) that have a "Not Available" phyla type. These samples are either considered a fail or a machine error. 
