@@ -31,14 +31,24 @@ metadata_in <- read.csv(paste0("data/metadata/",
                                  "illumina_sample_metadata_for_phyloseq.csv"),
                           header = TRUE,
                           stringsAsFactors = FALSE,
-                          row.names = 5) # sets sample IDs to row names
+                          row.names = 4) # sets sample IDs to row names
+
+# fix rownames to match metadata file
+rownames(sequence_table_nochim) <- gsub(pattern = "_.*filt",
+                                        replacement = "",
+                                        rownames(sequence_table_nochim))
+#subset metadeta to match taxa table
+metadata_in <- metadata_in[grepl(pattern = "(AJ|control)",
+                                 rownames(metadata_in)), ]
 
 # Construct phyloseq object (straightforward from dada2 outputs)
 phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,
-                                   taxa_are_rows = FALSE), # sample-spp matrix
-                         sample_data(metadata_in), # metadata for each sample
-                         tax_table(taxa)) # taxonomy for each sequence variant
+                                   taxa_are_rows = FALSE),
+                         sample_data(metadata_in),
+                         tax_table(taxa))
+# sample-spp matrix
+# metadata for each sample
+# taxonomy for each sequence variant
 
 # save phyloseq and melted_phyloseq objects to use in the Rmd file
 save(phyloseq_obj, file = "output/phyloseq_obj.Rda")
-
